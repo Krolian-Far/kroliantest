@@ -1,0 +1,46 @@
+{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"map_name": "Panacea-class Medevac Carrier",
+	"map_short_name": "Panacea-class",
+	"prefix": "NTMV",
+	"namelists": ["GENERAL", "SPACE", "MAGICAL"],
+	"map_path": "_maps/shuttles/shiptest/nanotrasen_panacea.dmm",
+	"limit": 1,
+	"job_slots": {
+		"Captain": {
+            "outfit": "/datum/outfit/job/captain/nt",
+			"officer": true,
+            "slots": 1
+		},
+		"Medical Director": {
+            "outfit": "/datum/outfit/job/cmo/nanotrasen",
+			"officer": true,
+            "slots": 1
+		},
+        "Security Detail": {
+            "outfit": "/datum/outfit/job/security/nanotrasen",
+            "slots": 1
+        },
+        "Medical Rapid Response Technician": {
+            "outfit": "/datum/outfit/job/paramedic/rapidresponse",
+            "slots": 2
+        },
+        "Medical Doctor": {
+            "outfit": "/datum/outfit/job/doctor",
+            "slots": 3
+		},
+        "Ambulance Pilot": {
+            "outfit": "/datum/outfit/job/paramedic/ambulancepilot",
+            "slots": 1
+        },
+		"Vessel Engineer": {
+			"outfit": "/datum/outfit/job/engineer/nt",
+			"slots": 1
+		},
+		"Medical Resident": {
+			"outfit": "/datum/outfit/job/doctor/juniordoctor",
+			"slots": 3
+		}
+	},
+	"enabled": true
+}

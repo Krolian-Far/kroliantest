@@ -108,3 +108,11 @@
 	satchel = /obj/item/storage/backpack/satchel/chem
 	courierbag = /obj/item/storage/backpack/messenger/chem
 	backpack_contents = list(/obj/item/melee/classic_baton/telescopic=1, /obj/item/storage/bag/chemistry=1)
+
+/datum/outfit/job/cmo/nanotrasen
+	name = "Medical Director (Nanotrasen)"
+
+	uniform = /obj/item/clothing/under/suit/cmo
+	ears = /obj/item/radio/headset/nanotrasen
+	shoes = /obj/item/clothing/shoes/laceup
+	suit = /obj/item/clothing/suit/toggle/labcoat/cmo

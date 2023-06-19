@@ -225,6 +225,7 @@ GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, S
 	name = "Security Officer (Nanotrasen)"
 
 	uniform = /obj/item/clothing/under/rank/security/officer/nt
+	ears = /obj/item/radio/headset/nanotrasen/alt //i'm sure there's a reason this wasn't here but it makes sense for them to have
 	alt_uniform = null
 
 /datum/outfit/job/security/roumain

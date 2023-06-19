@@ -88,3 +88,21 @@
 	uniform = /obj/item/clothing/under/rank/medical/paramedic/emt
 	head = /obj/item/clothing/head/soft/paramedic
 	suit = /obj/item/clothing/suit/armor/
+
+/datum/outfit/job/paramedic/ambulancepilot
+	name = "Ambulance Pilot  (Nanotrasen)"
+
+	uniform = /obj/item/clothing/under/rank/medical/paramedic/emt
+	shoes = /obj/item/clothing/shoes/jackboots
+	head = /obj/item/clothing/head/helmet
+	suit = /obj/item/clothing/suit/armor/vest/alt
+	belt = /obj/item/storage/belt/medical/webbing/paramedic
+	gloves = /obj/item/clothing/gloves/combat
+	ears = /obj/item/radio/headset/nanotrasen
+
+/datum/outfit/job/paramedic/rapidresponse
+	name = "Medical Rapid Response (Nanotrasen)"
+
+	uniform = /obj/item/clothing/under/rank/medical/paramedic/emt
+	shoes = /obj/item/clothing/shoes/jackboots
+	ears = /obj/item/radio/headset/nanotrasen

@@ -374,3 +374,8 @@
 	file_name = "independent_sugarcube"
 	name = "Sugarcube Transport"
 	prefix = "ISV"
+
+/datum/map_template/shuttle/subshuttles/spotlight
+	file_name = "nanotrasen_spotlight"
+	name = "Spotlight Ambulance"
+	prefix = "NTMV"
