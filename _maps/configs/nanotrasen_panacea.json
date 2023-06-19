@@ -8,31 +8,31 @@
 	"limit": 1,
 	"job_slots": {
 		"Captain": {
-            "outfit": "/datum/outfit/job/captain/nt",
+			"outfit": "/datum/outfit/job/captain/nt",
 			"officer": true,
-            "slots": 1
+			"slots": 1
 		},
 		"Medical Director": {
-            "outfit": "/datum/outfit/job/cmo/nanotrasen",
+			"outfit": "/datum/outfit/job/cmo/nanotrasen",
 			"officer": true,
-            "slots": 1
+			"slots": 1
 		},
-        "Security Detail": {
-            "outfit": "/datum/outfit/job/security/nanotrasen",
-            "slots": 1
-        },
-        "Medical Rapid Response Technician": {
-            "outfit": "/datum/outfit/job/paramedic/rapidresponse",
-            "slots": 2
-        },
-        "Medical Doctor": {
-            "outfit": "/datum/outfit/job/doctor",
-            "slots": 3
+		"Security Detail": {
+		"outfit": "/datum/outfit/job/security/nanotrasen",
+			"slots": 1
 		},
-        "Ambulance Pilot": {
-            "outfit": "/datum/outfit/job/paramedic/ambulancepilot",
-            "slots": 1
-        },
+		"Medical Rapid Response Technician": {
+			"outfit": "/datum/outfit/job/paramedic/rapidresponse",
+			"slots": 2
+		},
+		"Medical Doctor": {
+			"outfit": "/datum/outfit/job/doctor",
+			"slots": 3
+		},
+		"Ambulance Pilot": {
+			"outfit": "/datum/outfit/job/paramedic/ambulancepilot",
+			"slots": 1
+		},
 		"Vessel Engineer": {
 			"outfit": "/datum/outfit/job/engineer/nt",
 			"slots": 1
