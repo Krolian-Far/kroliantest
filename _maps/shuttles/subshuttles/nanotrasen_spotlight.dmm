@@ -31,6 +31,9 @@
 	},
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/machinery/atmospherics/pipe/simple/purple/visible,
+/obj/structure/sign/poster/random{
+	pixel_x = -29
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
 "cr" = (
@@ -83,7 +86,8 @@
 	pixel_x = -25;
 	req_access = list(150)
 	},
-/turf/open/floor/plasteel/tech/grid,
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
 /area/ship/medical)
 "eA" = (
 /obj/effect/turf_decal/industrial/warning{
@@ -634,7 +638,7 @@
 	dir = 4
 	},
 /obj/machinery/light/small/directional/east,
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/plasteel/tech,
 /area/ship/medical)
 "UJ" = (
 /obj/machinery/atmospherics/components/unary/tank/air{

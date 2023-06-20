@@ -264,6 +264,9 @@
 "dm" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/effect/landmark/start/assistant,
+/obj/effect/turf_decal/borderfloorwhite{
+	dir = 1
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/crew/canteen)
 "dn" = (
@@ -533,6 +536,9 @@
 /area/ship/engineering)
 "fg" = (
 /obj/effect/decal/cleanable/food/flour,
+/obj/effect/turf_decal/borderfloorwhite{
+	dir = 1
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/crew/canteen)
 "fj" = (
@@ -952,7 +958,7 @@
 /obj/structure/sign/poster/official/work_for_a_future{
 	pixel_x = 30
 	},
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/carpet/nanoweave,
 /area/ship/crew)
 "jQ" = (
 /obj/structure/cable{
@@ -1112,7 +1118,7 @@
 /area/ship/hallway/central)
 "ls" = (
 /obj/machinery/light/small/directional/south,
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/carpet/nanoweave,
 /area/ship/crew)
 "lw" = (
 /obj/structure/cable{
@@ -1227,6 +1233,9 @@
 /obj/structure/closet/secure_closet/freezer/fridge/open,
 /obj/machinery/camera/autoname{
 	dir = 10
+	},
+/obj/effect/turf_decal/borderfloorwhite{
+	dir = 4
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/crew/canteen)
@@ -2345,6 +2354,9 @@
 /obj/item/clothing/suit/apron/chef,
 /obj/item/reagent_containers/food/condiment/enzyme,
 /obj/item/book/manual/wiki/cooking_to_serve_man,
+/obj/effect/turf_decal/borderfloorwhite{
+	dir = 1
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/crew/canteen)
 "xQ" = (
@@ -2520,7 +2532,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/carpet/nanoweave,
 /area/ship/crew)
 "zV" = (
 /obj/structure/table/optable,
@@ -2782,7 +2794,7 @@
 	pixel_x = -15;
 	pixel_y = 22
 	},
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/carpet/nanoweave,
 /area/ship/crew)
 "CY" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
@@ -2917,6 +2929,9 @@
 /area/ship/crew/canteen)
 "EX" = (
 /obj/effect/decal/cleanable/generic,
+/obj/effect/turf_decal/borderfloorwhite{
+	dir = 1
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/crew/canteen)
 "Fa" = (
@@ -3059,7 +3074,7 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/stairs,
 /area/ship/shuttlebay)
 "GL" = (
 /obj/structure/closet/crate/trashcart,
@@ -3466,7 +3481,7 @@
 /obj/structure/bed,
 /obj/structure/curtain/cloth,
 /obj/item/bedsheet/dorms,
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/carpet/nanoweave,
 /area/ship/crew)
 "Lq" = (
 /obj/machinery/door/airlock/command{
@@ -3992,7 +4007,7 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/stairs,
 /area/ship/shuttlebay)
 "QQ" = (
 /obj/structure/frame/machine,
@@ -4081,6 +4096,9 @@
 "RK" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
+	},
+/obj/effect/turf_decal/borderfloorwhite{
+	dir = 5
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/crew/canteen)
@@ -4893,7 +4911,7 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/carpet/nanoweave,
 /area/ship/crew)
 "ZW" = (
 /obj/effect/turf_decal/industrial/traffic,
