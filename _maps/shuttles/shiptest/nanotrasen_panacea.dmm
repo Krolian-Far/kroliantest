@@ -1811,6 +1811,7 @@
 /area/ship/hallway/central)
 "sx" = (
 /obj/structure/table,
+/obj/item/toy/plush/moth/royal,
 /turf/open/floor/carpet/lone,
 /area/ship/crew/canteen)
 "sJ" = (
@@ -2177,6 +2178,9 @@
 	},
 /obj/effect/turf_decal/corner/opaque/ntblue/half{
 	dir = 4
+	},
+/obj/effect/turf_decal/borderfloorwhite{
+	dir = 8
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/hallway/central)
@@ -3427,6 +3431,17 @@
 /obj/effect/turf_decal/borderfloorwhite/cee,
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
+"KF" = (
+/obj/structure/bed/dogbed{
+	name = "Dr Meow-dicine's bed";
+	desc = "A comfy-looking cat bed. You can even strap your pet in, in case the gravity turns off."
+	},
+/mob/living/simple_animal/pet/cat/space{
+	name = "Dr. Meow-dicine";
+	desc = "It's a cat... in space! This one appears to have a blue cross painted onto their helmet."
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
 "KL" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/cable{
@@ -6309,7 +6324,7 @@ XM
 XM
 Xk
 Fh
-Jv
+KF
 ih
 Jv
 OK
