@@ -177,6 +177,9 @@
 /area/ship/cargo)
 "ci" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/structure/closet/firecloset/wall{
+	pixel_y = 28
+	},
 /turf/open/floor/mineral/titanium/blue,
 /area/ship/hallway/central)
 "cj" = (
@@ -504,6 +507,7 @@
 	pixel_x = -21;
 	light_on = 0
 	},
+/obj/structure/curtain/cloth/fancy,
 /turf/open/floor/carpet/executive,
 /area/ship/bridge)
 "eV" = (
@@ -1923,6 +1927,10 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/hallway/central)
+"tF" = (
+/obj/machinery/smartfridge/bloodbank/preloaded,
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/medical/surgery)
 "tI" = (
 /obj/machinery/door/firedoor,
 /obj/structure/sign/poster/official/random{
@@ -5746,8 +5754,8 @@ tJ
 OO
 Zh
 Nq
-ph
-HY
+tF
+xQ
 TL
 tM
 zI
