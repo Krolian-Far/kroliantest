@@ -495,14 +495,12 @@
 /area/ship/hallway/central)
 "eQ" = (
 /obj/docking_port/stationary{
+	dwidth = 7;
 	width = 30;
-	height = 7;
-	dir = 2;
-	dwidth = 8;
-	name = "Panacea hangar"
+	height = 15
 	},
-/turf/open/floor/plating,
-/area/ship/shuttlebay)
+/turf/template_noop,
+/area/template_noop)
 "eU" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -4956,6 +4954,7 @@ XM
 XM
 XM
 XM
+XM
 Vl
 rF
 id
@@ -4979,6 +4978,7 @@ XM
 XM
 "}
 (2,1,1) = {"
+XM
 XM
 XM
 XM
@@ -5007,6 +5007,7 @@ XM
 XM
 "}
 (3,1,1) = {"
+XM
 id
 qz
 qz
@@ -5035,6 +5036,7 @@ XM
 XM
 "}
 (4,1,1) = {"
+eQ
 Gk
 AC
 ba
@@ -5063,6 +5065,7 @@ XM
 XM
 "}
 (5,1,1) = {"
+XM
 fl
 Dx
 lU
@@ -5091,6 +5094,7 @@ XM
 XM
 "}
 (6,1,1) = {"
+XM
 id
 qz
 qz
@@ -5121,6 +5125,7 @@ XM
 (7,1,1) = {"
 XM
 XM
+XM
 pu
 DZ
 DZ
@@ -5147,6 +5152,7 @@ XM
 XM
 "}
 (8,1,1) = {"
+XM
 XM
 XM
 pu
@@ -5177,6 +5183,7 @@ XM
 (9,1,1) = {"
 XM
 XM
+XM
 pu
 fE
 DZ
@@ -5203,6 +5210,7 @@ Jc
 XM
 "}
 (10,1,1) = {"
+XM
 XM
 XM
 pu
@@ -5233,6 +5241,7 @@ Jc
 (11,1,1) = {"
 XM
 XM
+XM
 pu
 IP
 qt
@@ -5259,6 +5268,7 @@ ej
 Zd
 "}
 (12,1,1) = {"
+XM
 XM
 XM
 UE
@@ -5289,6 +5299,7 @@ uV
 (13,1,1) = {"
 XM
 XM
+XM
 uD
 Zg
 RX
@@ -5315,6 +5326,7 @@ LE
 Zd
 "}
 (14,1,1) = {"
+XM
 XM
 XM
 uD
@@ -5345,6 +5357,7 @@ Zd
 (15,1,1) = {"
 XM
 XM
+XM
 Sj
 Ud
 ic
@@ -5371,6 +5384,7 @@ gD
 Zd
 "}
 (16,1,1) = {"
+XM
 XM
 XM
 pu
@@ -5401,6 +5415,7 @@ Zd
 (17,1,1) = {"
 XM
 XM
+XM
 pu
 sl
 OU
@@ -5429,6 +5444,7 @@ uV
 (18,1,1) = {"
 XM
 XM
+XM
 cu
 pu
 OU
@@ -5444,7 +5460,7 @@ qd
 Zd
 hK
 KZ
-eQ
+PW
 PW
 PW
 PW
@@ -5455,6 +5471,7 @@ fS
 Zd
 "}
 (19,1,1) = {"
+XM
 XM
 XM
 XM
@@ -5487,6 +5504,7 @@ XM
 XM
 XM
 XM
+XM
 OU
 OU
 OU
@@ -5511,6 +5529,7 @@ xy
 uV
 "}
 (21,1,1) = {"
+XM
 XM
 XM
 XM
@@ -5543,6 +5562,7 @@ XM
 XM
 XM
 XM
+XM
 Aw
 sO
 FK
@@ -5567,6 +5587,7 @@ nh
 Zd
 "}
 (23,1,1) = {"
+XM
 XM
 XM
 XM
@@ -5599,6 +5620,7 @@ XM
 XM
 XM
 XM
+XM
 ph
 ph
 ph
@@ -5623,6 +5645,7 @@ lW
 mF
 "}
 (25,1,1) = {"
+XM
 XM
 XM
 XM
@@ -5653,6 +5676,7 @@ uV
 (26,1,1) = {"
 XM
 XM
+XM
 nd
 ph
 bi
@@ -5679,6 +5703,7 @@ fF
 Zd
 "}
 (27,1,1) = {"
+XM
 XM
 nd
 vL
@@ -5707,6 +5732,7 @@ Zd
 Jc
 "}
 (28,1,1) = {"
+XM
 nd
 vL
 SU
@@ -5735,6 +5761,7 @@ kk
 XM
 "}
 (29,1,1) = {"
+XM
 vL
 pX
 BM
@@ -5763,6 +5790,7 @@ hp
 XM
 "}
 (30,1,1) = {"
+XM
 gT
 Gd
 Yb
@@ -5791,6 +5819,7 @@ Kn
 XM
 "}
 (31,1,1) = {"
+XM
 vL
 em
 HN
@@ -5819,6 +5848,7 @@ kk
 XM
 "}
 (32,1,1) = {"
+XM
 nd
 vL
 vL
@@ -5848,6 +5878,7 @@ XM
 "}
 (33,1,1) = {"
 XM
+XM
 nd
 gl
 dX
@@ -5875,6 +5906,7 @@ Kn
 XM
 "}
 (34,1,1) = {"
+XM
 XM
 gT
 St
@@ -5904,6 +5936,7 @@ XM
 "}
 (35,1,1) = {"
 XM
+XM
 nd
 vL
 sk
@@ -5931,6 +5964,7 @@ XM
 XM
 "}
 (36,1,1) = {"
+XM
 XM
 XM
 nd
@@ -5962,6 +5996,7 @@ XM
 XM
 XM
 XM
+XM
 nd
 kR
 kR
@@ -5987,6 +6022,7 @@ XM
 XM
 "}
 (38,1,1) = {"
+XM
 XM
 XM
 XM
@@ -6019,6 +6055,7 @@ XM
 XM
 XM
 XM
+XM
 uT
 ww
 nK
@@ -6043,6 +6080,7 @@ XM
 XM
 "}
 (40,1,1) = {"
+XM
 XM
 XM
 XM
@@ -6076,6 +6114,7 @@ XM
 XM
 XM
 XM
+XM
 uT
 mr
 FN
@@ -6099,6 +6138,7 @@ XM
 XM
 "}
 (42,1,1) = {"
+XM
 XM
 XM
 XM
@@ -6133,6 +6173,7 @@ XM
 XM
 XM
 XM
+XM
 kR
 kR
 kR
@@ -6155,6 +6196,7 @@ XM
 XM
 "}
 (44,1,1) = {"
+XM
 XM
 XM
 XM
@@ -6189,6 +6231,7 @@ XM
 XM
 XM
 XM
+XM
 Bd
 PJ
 NQ
@@ -6211,6 +6254,7 @@ XM
 XM
 "}
 (46,1,1) = {"
+XM
 XM
 XM
 XM
@@ -6245,6 +6289,7 @@ XM
 XM
 XM
 XM
+XM
 bJ
 jn
 cO
@@ -6267,6 +6312,7 @@ XM
 XM
 "}
 (48,1,1) = {"
+XM
 XM
 XM
 XM
@@ -6303,6 +6349,7 @@ XM
 XM
 XM
 XM
+XM
 wy
 CF
 cv
@@ -6331,6 +6378,7 @@ XM
 XM
 XM
 XM
+XM
 Xk
 Fh
 KF
@@ -6351,6 +6399,7 @@ XM
 XM
 "}
 (51,1,1) = {"
+XM
 XM
 XM
 XM
@@ -6388,6 +6437,7 @@ XM
 XM
 XM
 XM
+XM
 jn
 uB
 af
@@ -6407,6 +6457,7 @@ XM
 XM
 "}
 (53,1,1) = {"
+XM
 XM
 XM
 XM
