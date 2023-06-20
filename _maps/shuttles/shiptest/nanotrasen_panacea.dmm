@@ -56,7 +56,7 @@
 	dir = 8
 	},
 /obj/machinery/vending/cigarette,
-/turf/open/floor/mineral/titanium,
+/turf/open/floor/mineral/titanium/blue,
 /area/ship/hallway/central)
 "aM" = (
 /obj/structure/cable{
