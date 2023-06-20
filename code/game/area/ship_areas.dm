@@ -346,6 +346,11 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/ship/cargo/starboard
 	name = "Starboard Cargo Bay"
 
+/area/ship/shuttlebay
+	name = "Ambulance Bay"
+	icon_state = "firingrange"
+	sound_environment = SOUND_AREA_LARGE_ENCLOSED
+
 /// Hallways ///
 /area/ship/hallway
 	name = "Hallway"
@@ -420,13 +425,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/ship/storage/eva
 	name = "EVA Storage"
 	icon_state = "eva"
-
-/area/ship/shuttlebay
-	name = "Shuttle Bay"
-	icon_state = "cargo_bay"
-	lighting_colour_tube = "#ffe3cc"
-	lighting_colour_bulb = "#ffdbb8"
-	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 
 /// External Areas ///
 /area/ship/external

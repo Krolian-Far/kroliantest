@@ -3,10 +3,6 @@
 /obj/structure/sign/nanotrasen,
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/medical)
-"aU" = (
-/obj/effect/spawner/structure/window/shuttle,
-/turf/open/floor/plating,
-/area/ship/external)
 "bA" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/bridge)
@@ -401,9 +397,6 @@
 /turf/closed/wall/mineral/titanium,
 /area/ship/bridge)
 "wS" = (
-/obj/machinery/atmospherics/components/binary/pump/layer2{
-	name = "Air to Ambulance"
-	},
 /obj/machinery/door/poddoor{
 	name = "Ambulance door";
 	id = "ambulancenorth"
@@ -416,6 +409,7 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/door/firedoor/border_only,
+/obj/machinery/atmospherics/pipe/layer_manifold,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/medical)
 "yS" = (
@@ -437,13 +431,10 @@
 	port_direction = 8;
 	name = "Ambulance"
 	},
-/obj/machinery/atmospherics/components/binary/pump/layer4{
-	dir = 1;
-	name = "Waste from Ambulance"
-	},
 /obj/structure/cable/yellow{
 	icon_state = "1-10"
 	},
+/obj/machinery/atmospherics/pipe/layer_manifold,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/medical)
 "yU" = (
@@ -568,9 +559,6 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
-"Hu" = (
-/turf/closed/wall/mineral/titanium,
-/area/ship/external)
 "HV" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering)
@@ -823,8 +811,8 @@ bA
 Mo
 bA
 PG
-Hu
-aU
+bA
+PG
 wh
 hk
 "}

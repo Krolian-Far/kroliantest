@@ -239,6 +239,12 @@
 "cN" = (
 /obj/structure/table,
 /obj/machinery/light/directional/south,
+/obj/item/reagent_containers/food/condiment/saltshaker{
+	pixel_x = -2
+	},
+/obj/item/reagent_containers/food/condiment/peppermill{
+	pixel_x = 5
+	},
 /turf/open/floor/carpet/lone,
 /area/ship/crew/canteen)
 "cO" = (
@@ -511,7 +517,6 @@
 	pixel_x = -21;
 	light_on = 0
 	},
-/obj/structure/curtain/cloth/fancy,
 /turf/open/floor/carpet/executive,
 /area/ship/bridge)
 "eV" = (
@@ -675,7 +680,7 @@
 /turf/open/floor/plasteel/white,
 /area/ship/science)
 "gv" = (
-/obj/structure/closet/secure_closet/freezer/meat/open,
+/obj/machinery/processor,
 /turf/open/floor/plasteel/white,
 /area/ship/crew/canteen)
 "gy" = (
@@ -1232,13 +1237,13 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "mB" = (
-/obj/structure/closet/secure_closet/freezer/fridge/open,
 /obj/machinery/camera/autoname{
 	dir = 10
 	},
 /obj/effect/turf_decal/borderfloorwhite{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/freezer/meat/open,
 /turf/open/floor/plasteel/white,
 /area/ship/crew/canteen)
 "mD" = (
@@ -1397,7 +1402,7 @@
 /obj/machinery/telecomms/relay{
 	id = "NTPANACEA-RELAY";
 	network = "NTPANACEA";
-	autolinkers = list("NT    Hub")
+	autolinkers = list("NT Hub")
 	},
 /turf/open/floor/plasteel/telecomms_floor,
 /area/ship/engineering/communications)
@@ -1741,7 +1746,11 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
-/obj/machinery/processor,
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_y = 6;
+	pixel_x = -3
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/crew/canteen)
 "rF" = (
@@ -2364,6 +2373,12 @@
 /obj/effect/turf_decal/borderfloorwhite{
 	dir = 1
 	},
+/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/food/condiment/sugar,
+/obj/item/reagent_containers/food/condiment/milk,
+/obj/item/reagent_containers/food/condiment/milk,
+/obj/item/reagent_containers/food/condiment/soymilk,
 /turf/open/floor/plasteel/white,
 /area/ship/crew/canteen)
 "xQ" = (
@@ -2829,7 +2844,6 @@
 /area/ship/engineering)
 "Dx" = (
 /obj/structure/closet/emcloset/anchored,
-/obj/item/mecha_parts/mecha_equipment/hydraulic_clamp/kill/real,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/engineering)
@@ -3124,6 +3138,12 @@
 /obj/effect/turf_decal/ntspaceworks_big/six,
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/central)
+"GX" = (
+/obj/effect/landmark/subship{
+	subship_template = /datum/map_template/shuttle/subshuttles/spotlight
+	},
+/turf/open/floor/plating,
+/area/ship/shuttlebay)
 "Hi" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -3405,8 +3425,10 @@
 /obj/effect/turf_decal/industrial/stand_clear{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/layer_manifold,
 /obj/effect/decal/cleanable/blood/tracks,
+/obj/machinery/atmospherics/components/binary/pump/layer4{
+	name = "Air to Ambulance"
+	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/shuttlebay)
 "Kn" = (
@@ -3471,9 +3493,12 @@
 /obj/effect/turf_decal/techfloor/orange{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/layer_manifold,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/components/binary/pump/layer2{
+	name = "Waste from Ambulance";
+	dir = 1
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/shuttlebay)
@@ -3920,7 +3945,6 @@
 	req_access = list(5)
 	},
 /obj/item/radio/intercom/directional/west,
-/obj/item/radio/headset/nanotrasen,
 /obj/item/clothing/gloves/color/latex/nitrile,
 /obj/item/borg/sight/hud/med,
 /obj/item/clothing/shoes/jackboots,
@@ -4094,7 +4118,6 @@
 	name = "rapid medical technician's locker";
 	req_access = list(5)
 	},
-/obj/item/radio/headset/nanotrasen,
 /obj/item/clothing/gloves/color/latex/nitrile,
 /obj/item/borg/sight/hud/med,
 /obj/item/clothing/shoes/jackboots,
@@ -4442,10 +4465,10 @@
 /obj/item/radio/headset/nanotrasen/alt,
 /obj/item/clothing/head/beret/sec,
 /obj/item/kitchen/knife/combat/survival,
-/obj/item/gun/energy/e_gun/advtaser,
 /obj/machinery/firealarm/directional/west,
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/head/helmet/bulletproof/x11,
+/obj/item/gun/energy/disabler,
 /turf/open/floor/plasteel/dark,
 /area/ship/security)
 "UE" = (
@@ -4608,7 +4631,7 @@
 "VD" = (
 /obj/machinery/telecomms/bus/preset_two{
 	network = "NTPANACEA";
-	autolinkers = list("processor2","nanotrasen","receiverA","messaging","NT    Hub")
+	autolinkers = list("processor2","nanotrasen","receiverA","messaging","NT                Hub")
 	},
 /obj/structure/window/reinforced/spawner/west,
 /turf/open/floor/plasteel/telecomms_floor,
@@ -5273,7 +5296,7 @@ PW
 PW
 PW
 PW
-PW
+GX
 gD
 uV
 "}
