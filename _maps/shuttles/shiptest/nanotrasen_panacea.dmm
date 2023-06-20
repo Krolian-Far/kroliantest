@@ -1402,7 +1402,7 @@
 /obj/machinery/telecomms/relay{
 	id = "NTPANACEA-RELAY";
 	network = "NTPANACEA";
-	autolinkers = list("NT Hub")
+	autolinkers = list("NT-Hub")
 	},
 /turf/open/floor/plasteel/telecomms_floor,
 /area/ship/engineering/communications)
@@ -1763,7 +1763,7 @@
 "rZ" = (
 /obj/machinery/telecomms/hub/preset{
 	network = "NTPANACEA";
-	id = "NT Hub"
+	id = "NT-Hub"
 	},
 /turf/open/floor/plasteel/telecomms_floor,
 /area/ship/engineering/communications)
@@ -4631,7 +4631,7 @@
 "VD" = (
 /obj/machinery/telecomms/bus/preset_two{
 	network = "NTPANACEA";
-	autolinkers = list("processor2","nanotrasen","receiverA","messaging","NT                Hub")
+	autolinkers = list("processor2","nanotrasen","receiverA","messaging","NT-Hub")
 	},
 /obj/structure/window/reinforced/spawner/west,
 /turf/open/floor/plasteel/telecomms_floor,
@@ -4756,7 +4756,7 @@
 	pixel_y = 5;
 	pixel_x = 6
 	},
-/obj/item/storage/firstaid{
+/obj/item/storage/firstaid/regular{
 	pixel_x = -8;
 	pixel_y = 5
 	},
@@ -4775,20 +4775,6 @@
 "XM" = (
 /turf/template_noop,
 /area/template_noop)
-"XN" = (
-/obj/structure/closet/crate/secure/weapon{
-	req_one_access_txt = "20";
-	name = "lethal weapons crate"
-	},
-/obj/item/gun/ballistic/automatic/smg/proto/unrestricted,
-/obj/item/ammo_box/c9mm/surplus,
-/obj/item/ammo_box/c9mm/surplus,
-/obj/item/ammo_box/magazine/smgm9mm{
-	ammo_type = /obj/item/ammo_casing/c9mm/surplus
-	},
-/obj/effect/turf_decal/industrial/outline/yellow,
-/turf/open/floor/plasteel/patterned/cargo_one,
-/area/ship/cargo)
 "XX" = (
 /obj/machinery/door/airlock/research{
 	name = "Toxins Laboratory";
@@ -5136,7 +5122,7 @@ XM
 XM
 XM
 pu
-XN
+DZ
 DZ
 qR
 Va
