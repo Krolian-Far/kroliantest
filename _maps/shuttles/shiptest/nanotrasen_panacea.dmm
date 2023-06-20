@@ -67,7 +67,8 @@
 /obj/effect/turf_decal/corner/opaque/brown/half{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/borderfloorwhite,
+/turf/open/floor/plasteel/white,
 /area/ship/hallway/central)
 "aR" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1114,7 +1115,8 @@
 /obj/effect/turf_decal/corner/opaque/orange/half{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/borderfloorwhite,
+/turf/open/floor/plasteel/white,
 /area/ship/hallway/central)
 "ls" = (
 /obj/machinery/light/small/directional/south,
@@ -1582,7 +1584,8 @@
 /obj/effect/turf_decal/corner/opaque/bar/half{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/borderfloorwhite,
+/turf/open/floor/plasteel/white,
 /area/ship/hallway/central)
 "pP" = (
 /obj/effect/turf_decal/industrial/outline/yellow,
@@ -3222,7 +3225,8 @@
 /obj/effect/turf_decal/corner/opaque/blue/half{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/borderfloorwhite,
+/turf/open/floor/plasteel/white,
 /area/ship/hallway/central)
 "Io" = (
 /obj/machinery/door/firedoor/border_only{
