@@ -522,6 +522,10 @@
 /obj/structure/closet/wall/chem/directional/north{
 	name = "radio closet"
 	},
+/obj/item/flashlight,
+/obj/item/flashlight,
+/obj/item/flashlight,
+/obj/item/flashlight,
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/cryo)
 "jP" = (
@@ -1605,6 +1609,13 @@
 /area/ship/cargo)
 "Ie" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/item/pen/fountain/captain{
+	pixel_y = 10;
+	pixel_x = -8
+	},
+/obj/effect/decal/cleanable/blood{
+	icon_state = "floor4"
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
 "Ik" = (
@@ -1623,7 +1634,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate/secure/owned{
 	name = "Gezenan captain outfit crate";
-	desc = "The captain had a real problem with buying these. However, luckily, these come with working spare captain IDs, for some reason. The legality of this is, understandably, controversial."
+	desc = "The captain had a real problem with buying these. However, luckily, these come with working spare captain IDs, for some reason. The legality of this is, understandably, controversial. With the captain being dead, his card is gone too. You'll need to break this open to get the contents out."
 	},
 /obj/item/card/id/captains_spare,
 /obj/item/clothing/accessory/medal/gold/captain,
@@ -2483,6 +2494,8 @@
 	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/item/paper_bin,
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
 "Wj" = (
@@ -2498,6 +2511,11 @@
 	desc = "Your only line to the outside world."
 	},
 /obj/structure/table/reinforced,
+/obj/item/paper{
+	name = "WARRANT";
+	desc = "Uh oh.";
+	default_raw_text = "<head><table bgcolor="#1b4670" width="100%" height="10%"><th><font size="1" color="white">CLIP-CMM<br>WARRANT</div></font></th><th><div align="right"><font size="1" color="white">[CMSV After-Action]<br>GOLD-WRNT-PR</div></th></head></table><table frame="below" bgcolor="#25619c" width="100%" height="10%"><td><center><font color="white" size="3">Vessel Search Warrant<br>Under jurisdiction of CLIP-GOLD</td></center></font></table><code><br><center>Acting on behalf of CLIP-GOLD;<br></center>The CMM vessel, [CMSV After-Action], will be conducting a search of the vessel flagged with the transponder of [SV Nebulae].<br><br>This warrant was penned and authorised by<br>[Rear Admiral Juwee-Irnes] and the cause for it to be enacted is as follows.<br><br><b>[Suspected smuggling operations, reasonable suspicious of harboring a fugitive.]</b><br><br>This reason may be disputed at your nearest GOLD office. Non-contraband items will not be taken under any circumstance. Should contraband be discovered without prior information, you may be fined or charged with possession. If you or any crew have any outstanding arrest warrants, fleeing will be punished with higher severity. Upon receiving this warrant, you are required to halt and comply with any instructions from the transmitting CLIP authority.<br><br>Contrabands are as follows.<br><b>[Any manner of pirate equipment*, high caliber firearms, explosives, narcotics, stolen CLIP equipment, sensitive CLIP information, or unregistered weaponry.]<br>[*"Pirate equipment" includes but is not limited to: Rusted red hardsuits (Ramzi Clique), Green-grey attire/armor (Frontiersmen), Shoal-made firearms (Frontiersmen), Blood-red hardsuits (Ramzi Clique)]</b><br><font color="blue">Some contraband items may be excused if you inform the authority of the presence of it and why you are in possession of it.</font><br><font color="red">Pirate equipment is zero tolerance and failure to surrender it will be punished.</font><br><br>Once you are given the all-clear, you may continue on your day. Any outstanding fines given and that could not be paid should be paid before you leave the sector or there will be consequences, possibly resulting in an arrest warrant being placed on you."
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
 "Wn" = (
