@@ -626,6 +626,7 @@
 /obj/item/storage/box/stockparts/t2,
 /obj/effect/mapping_helpers/crate_shelve,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/research_notes/loot/medium,
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/cargo)
 "ll" = (
@@ -1629,10 +1630,6 @@
 /obj/effect/decal/cleanable/blood{
 	icon_state = "floor4"
 	},
-/obj/item/taperecorder/empty{
-	pixel_x = 10;
-	pixel_y = -4
-	},
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
 "Ik" = (
@@ -2333,6 +2330,10 @@
 	pixel_x = 7;
 	pixel_y = 5
 	},
+/obj/item/taperecorder/empty{
+	pixel_x = 10;
+	pixel_y = -4
+	},
 /turf/open/floor/pod/dark,
 /area/ship/engineering)
 "Tw" = (
@@ -2520,6 +2521,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
 /obj/item/paper_bin,
+/obj/item/tape/random/preset/captain,
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
 "Wj" = (
