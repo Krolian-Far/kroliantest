@@ -1,0 +1,30 @@
+{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"map_name": "Befallen-class Wreckage",
+	"map_short_name": "Befallen-class",
+	"faction": "/datum/faction/independent",
+	"prefix": "SV",
+	"manufacturer": "Miskilamo Spacefaring",
+	"namelists": ["GENERAL", "SPACE"],
+	"map_path": "_maps/shuttles/independent/independent_wreckage.dmm",
+	"limit": 1,
+	"spawn_time_coeff": 1.5,
+	"officer_time_coeff": 0.5,
+	"job_slots": {
+		"Personnel Chief": {
+			"outfit": "/datum/outfit/job/independent/hop",
+			"officer": true,
+			"slots": 1
+		},
+		"Ship Engineer": {
+			"outfit": "/datum/outfit/job/independent/engineer",
+			"slots": 2
+		},
+		"Deckhand": {
+			"outfit": "/datum/outfit/job/independent/assistant/cheap",
+			"slots": 3
+		}
+	},
+	"enabled": false,
+	"space_spawn": false
+}
