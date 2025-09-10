@@ -376,3 +376,51 @@
 //set used capacity to how many 'seconds' used by the prerecorded message
 //optional: set max capacity to used capacity
 //optional: set ruined var (you can fix this with a pen)
+
+/obj/item/tape/random/preset/captain
+	ruined = 1
+	used_capacity = 90
+	max_capacity = 90
+
+/obj/item/tape/random/preset/captain/Initialize()
+	. = ..()
+	storedinfo = list(
+		"\[00:00\] Recording started.",
+		"\[00:03\] frantic kepori hastily chirps, \"They'll be here any minute...\"",
+		"\[00:06\] frantic kepori hastily chirps, \"What do I say..? To hell with it, they wouldn't believe me...\"",
+		"\[00:12\] rustling, then a loud crackle",
+		"\[00:14\] wideband relay alarms, \"SV Nebulae! Desist your fleeing this instant or be fired upon!\"",
+		"\[00:17\] frantic kepori loudly retorts, \"G-GO TO HELL, BLUEBERRIES!!\"",
+		"\[00:22\] wideband relay alarms, \"SV Nebulae, this is your final warning! Halt your ship or we will resort to firing our main battery!\"",
+		"\[00:27\] loud explosions, hull creaking",
+		"\[00:29\] frantic kepori screams, \"Shh-shit! CREW?! PREPARE FOR- ERM- EHH-EVASIVE MANEUVERS- HOLD ON- WHY AREN'T MMYYY ENGINES WORKING?!\"",
+		"\[00:32\] frantic kepori chirps, \"Fffuck, how do I-\"",
+		"\[00:34\] distant explosions, hull creaking",
+		"\[00:36\] frantic kepori chirps, \"I need- I need a moment- okay.. I need to help my crew- we're in orbit.. we'll crash land.. and- and they shouldn't chase..\"",
+		"\[00:40\] frantic kepori declares, \"Yes.. yes, that will work.. er..\"",
+		"\[00:43\] frantic kepori exclaims, \"CREW?! I'M COMING TO HELP! JUST, JUST DO DAMAGE CONTROL FOR NOW, WE'LL-!\"",
+		"\[00:45\] airlock opens, loud depressurization, rapidly fading scream",
+		"\[00:47\] airlock closes",
+		"\[01:29\] bridge recorder states, \"Internal storage filled. Ejecting tape.\"",
+		"\[01:30\] Recording ended.",
+	)
+	timestamp = list(
+		0,
+		3,
+		6,
+		12,
+		14,
+		17,
+		22,
+		27,
+		29,
+		32,
+		34,
+		36,
+		40,
+		43,
+		45,
+		47,
+		89,
+		90
+	)
