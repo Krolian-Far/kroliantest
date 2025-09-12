@@ -389,11 +389,6 @@
 /area/ship/cargo)
 "gz" = (
 /obj/structure/crate_shelf/built,
-/obj/structure/closet/crate/secure{
-	name = "inconspicuous crate";
-	desc = "A strangely uninteresting crate.";
-	opacity = 0.5
-	},
 /obj/item/paper{
 	name = "sorry buddy";
 	default_raw_text = "if you got this, old friend, don't come looking.<br><br>I died the way I wanted and that's all that matters. I hope you don't mourn too long, cause you know I wouldn't like that.<br><br>PS: I sent you some of my old gear swiped off my prior ships. Put it to good use- or just keep it as a souvenier, I don't care which.<br><br>May the Protector watch over you.<br>-R.";
@@ -405,6 +400,10 @@
 	ammo_type = null
 	},
 /obj/effect/mapping_helpers/crate_shelve,
+/obj/structure/closet/crate/secure{
+	name = "inconspicuous crate";
+	desc = "A strangely uninteresting crate."
+	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/cargo)
 "gJ" = (
