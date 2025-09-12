@@ -12,7 +12,11 @@
 /area/ship/engineering)
 "az" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "aD" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/directional/south,
@@ -29,7 +33,11 @@
 	outfit = /datum/outfit/job/independent/doctor
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "aY" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable{
@@ -89,14 +97,14 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/airlock/command{
 	dir = 4;
 	req_access_txt = "19";
 	name = "Bridge"
+	},
+/obj/machinery/door/firedoor/border_only/closed{
+	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
@@ -118,7 +126,11 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "cB" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -195,7 +207,11 @@
 /area/ship/cargo)
 "ef" = (
 /turf/open/floor/engine/hull,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "em" = (
 /obj/machinery/cryopod,
 /obj/machinery/light/small/directional/north,
@@ -422,7 +438,11 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/siding/wideplating/light,
 /turf/open/floor/plasteel/lightgrey,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "hD" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/stairs{
@@ -459,11 +479,19 @@
 /area/ship/crew/canteen)
 "ia" = (
 /turf/open/floor/plating/rust,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "iD" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plating/rust,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "jg" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -486,7 +514,11 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "jh" = (
 /obj/structure/railing/corner,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
@@ -506,7 +538,11 @@
 	preferred_direction = 4
 	},
 /turf/open/floor/engine/hull,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "jM" = (
 /obj/structure/table,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
@@ -549,6 +585,10 @@
 	},
 /obj/machinery/power/terminal{
 	dir = 8
+	},
+/obj/item/crowbar/large{
+	pixel_y = -14;
+	pixel_x = 2
 	},
 /turf/open/floor/plasteel/lightgrey,
 /area/ship/hallway/central)
@@ -759,6 +799,15 @@
 "oK" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/crew/cryo)
+"pb" = (
+/obj/effect/decal/fakelattice,
+/obj/structure/closet/firecloset/full,
+/turf/open/floor/plating/airless,
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "pH" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -898,10 +947,6 @@
 /turf/closed/wall/mineral/titanium,
 /area/ship/crew/canteen)
 "tB" = (
-/obj/machinery/door/airlock/security{
-	dir = 4;
-	name = "Security Office"
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -913,18 +958,30 @@
 	},
 /obj/effect/mapping_helpers/airlock/welded,
 /obj/effect/decal/cleanable/blood/gibs,
-/obj/machinery/door/firedoor/border_only/closed{
+/obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
-/obj/machinery/door/firedoor/border_only/closed{
+/obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
+/obj/machinery/door/airlock/security{
+	dir = 4;
+	name = "Security Office"
+	},
 /turf/open/floor/plating,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "tC" = (
 /obj/structure/girder,
 /turf/open/floor/plating,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "tR" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -936,7 +993,11 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/siding/wideplating/light,
 /turf/open/floor/plasteel/lightgrey,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "ub" = (
 /obj/structure/closet/secure_closet{
 	icon_state = "mining";
@@ -1001,7 +1062,11 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "vk" = (
 /obj/structure/sign/poster/contraband/random{
 	pixel_y = 32
@@ -1025,6 +1090,7 @@
 /obj/effect/turf_decal/siding/wideplating/light{
 	dir = 1
 	},
+/obj/structure/closet/firecloset/wall/directional/north,
 /turf/open/floor/plasteel/lightgrey,
 /area/ship/hallway/central)
 "vD" = (
@@ -1039,6 +1105,9 @@
 /obj/item/storage/firstaid/regular,
 /obj/item/storage/firstaid,
 /obj/machinery/airalarm/directional/south,
+/obj/structure/sign/poster/official/help_others{
+	pixel_x = 32
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
 "vN" = (
@@ -1135,6 +1204,7 @@
 /obj/item/clothing/gloves/color/yellow,
 /obj/item/clothing/glasses/welding,
 /obj/item/clothing/head/welding,
+/obj/machinery/firealarm/directional/south,
 /turf/open/floor/plasteel/patterned/brushed,
 /area/ship/engineering)
 "xk" = (
@@ -1150,7 +1220,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wideplating/light,
 /turf/open/floor/plasteel/lightgrey,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "xt" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable{
@@ -1202,7 +1276,11 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "yV" = (
 /obj/item/bedsheet/medical,
 /obj/structure/bed,
@@ -1299,15 +1377,17 @@
 "Au" = (
 /obj/structure/girder/displaced,
 /turf/open/floor/plating,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "AD" = (
-/obj/structure/sign/poster/official/help_others{
-	pixel_x = 32
-	},
 /obj/effect/turf_decal/borderfloorwhite{
 	dir = 8;
 	color = "#ADD8E6"
 	},
+/obj/machinery/firealarm/directional/east,
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
 "AG" = (
@@ -1334,8 +1414,13 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood/tracks,
+/obj/structure/closet/firecloset/wall/directional/west,
 /turf/open/floor/plasteel/lightgrey,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "Cq" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -1392,7 +1477,11 @@
 /area/ship/cargo)
 "DF" = (
 /turf/open/floor/engine/hull/reinforced,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "DL" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable{
@@ -1498,13 +1587,24 @@
 /area/ship/cargo)
 "FC" = (
 /turf/closed/wall/mineral/titanium,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "FI" = (
 /obj/structure/closet/crate/bin,
 /obj/machinery/light_switch{
 	pixel_y = 24
 	},
 /obj/effect/decal/cleanable/generic,
+/obj/machinery/button/door{
+	pixel_y = 24;
+	name = "window shutters";
+	pixel_x = -9;
+	id = "wreckwindow"
+	},
+/obj/machinery/firealarm/directional/east,
 /turf/open/floor/plasteel/patterned,
 /area/ship/crew/canteen)
 "FJ" = (
@@ -1531,7 +1631,11 @@
 	},
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/plasteel/lightgrey,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "FL" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1540,7 +1644,11 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/lightgrey,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "FN" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/medical)
@@ -1566,7 +1674,11 @@
 	},
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/plasteel/lightgrey,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "Gy" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1581,7 +1693,11 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "GH" = (
 /obj/structure/foamedmetal,
 /turf/open/floor/plating/foam,
@@ -1609,17 +1725,30 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plating,
 /area/ship/engineering)
+"Hk" = (
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/plating/foam,
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "HC" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /obj/machinery/door/poddoor/shutters{
-	id = "wreckbridgewindows";
+	id = "wreckwindow";
 	name = "window shutters"
 	},
 /turf/open/floor/plasteel,
 /area/ship/crew/canteen)
 "HD" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/cargo)
+"HH" = (
+/obj/structure/foamedmetal,
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/plating/foam,
 /area/ship/cargo)
 "Ie" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1648,9 +1777,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate/secure/owned{
 	name = "Gezenan captain outfit crate";
-	desc = "The captain had a real problem with buying these. However, luckily, these come with working spare captain IDs, for some reason. The legality of this is, understandably, controversial. With the captain being dead, his card is gone too. You'll need to break this open to get the contents out."
+	desc = "The captain had a real problem with buying these. The legality of these are, strangely, controversial. With the captain being dead, his card is gone too. You'll need to break this open to get the contents out."
 	},
-/obj/item/card/id/captains_spare,
+/obj/item/card/id/captains_spare{
+	desc = "A 'gezenan brand' spare captain ID card. Oddly, it works perfectly for opening any secure-lock closets or crates. Thankfully- or unthankfully in your case- it needs to be granted ship access to open the ship's airlocks too.";
+	name = "Gezenan Captaincy ID"
+	},
 /obj/item/clothing/accessory/medal/gold/captain,
 /obj/item/clothing/gloves/gezena/captain,
 /obj/item/clothing/neck/cloak/gezena/captain,
@@ -1845,7 +1977,11 @@
 "Lu" = (
 /obj/structure/foamedmetal,
 /turf/open/floor/plating/foam,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "LO" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable{
@@ -2069,13 +2205,10 @@
 /obj/effect/turf_decal/siding/wideplating/light/corner{
 	dir = 1
 	},
-/obj/item/crowbar/large{
-	pixel_x = -2;
-	pixel_y = 12
-	},
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
+/obj/structure/closet/emcloset/wall/directional/south,
 /turf/open/floor/plasteel/lightgrey,
 /area/ship/hallway/central)
 "Oy" = (
@@ -2186,12 +2319,21 @@
 /obj/effect/decal/cleanable/blood/squirt{
 	dir = 8
 	},
+/obj/machinery/firealarm/directional/east,
 /turf/open/floor/plating/foam,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "QO" = (
 /obj/effect/decal/fakelattice,
 /turf/open/floor/plating/airless,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "QU" = (
 /obj/machinery/power/apc/auto_name/directional/east{
 	start_charge = 0
@@ -2236,8 +2378,13 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/siding/wideplating/light,
+/obj/structure/closet/emcloset/wall/directional/south,
 /turf/open/floor/plasteel/lightgrey,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "RX" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
@@ -2396,6 +2543,9 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/paper/crumpled{
+	default_raw_text = "I FOAMED UP WHAT I COULD GOOD LUCK WHOEVER ELSE WAKES UP"
+	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/crew/dorm)
 "Uj" = (
@@ -2542,6 +2692,7 @@
 	desc = "Uh oh.";
 	default_raw_text = "<head><table bgcolor="#1b4670" width="100%" height="10%"><th><font size="1" color="white">CLIP-CMM<br>WARRANT</div></font></th><th><div align="right"><font size="1" color="white">[CMSV After-Action]<br>GOLD-WRNT-PR</div></th></head></table><table frame="below" bgcolor="#25619c" width="100%" height="10%"><td><center><font color="white" size="3">Vessel Search Warrant<br>Under jurisdiction of CLIP-GOLD</td></center></font></table><code><br><center>Acting on behalf of CLIP-GOLD;<br></center>The CMM vessel, [CMSV After-Action], will be conducting a search of the vessel flagged with the transponder of [SV Nebulae].<br><br>This warrant was penned and authorised by<br>[Rear Admiral Juwee-Irnes] and the cause for it to be enacted is as follows.<br><br><b>[Suspected smuggling operations, reasonable suspicious of harboring a fugitive.]</b><br><br>This reason may be disputed at your nearest GOLD office. Non-contraband items will not be taken under any circumstance. Should contraband be discovered without prior information, you may be fined or charged with possession. If you or any crew have any outstanding arrest warrants, fleeing will be punished with higher severity. Upon receiving this warrant, you are required to halt and comply with any instructions from the transmitting CLIP authority.<br><br>Contrabands are as follows.<br><b>[Any manner of pirate equipment*, high caliber firearms, explosives, narcotics, stolen CLIP equipment, sensitive CLIP information, or unregistered weaponry.]<br>[*"Pirateequipment" includes but is not limited to: Rusted red hardsuits (Ramzi Clique), Green-grey attire/armor (Frontiersmen), Shoal-made firearms (Frontiersmen), Blood-red hardsuits (Ramzi Clique)]</b><br><font color="blue">Some contraband items may be excused if you inform the authority of the presence of it and why you are in possession of it.</font><br><font color="red">Pirate equipment is zero tolerance and failure to surrender it will be punished.</font><br><br>Once you are given the all-clear, you may continue on your day. Any outstanding fines given and that could not be paid should be paid before you leave the sector or there will be consequences, possibly resulting in an arrest warrant being placed on you."
 	},
+/obj/machinery/firealarm/directional/west,
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
 "Wn" = (
@@ -2608,10 +2759,18 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "WU" = (
 /turf/open/floor/plating/foam,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "Xc" = (
 /obj/structure/frame/machine,
 /obj/structure/foamedmetal,
@@ -2686,6 +2845,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 10
 	},
+/obj/machinery/firealarm/directional/north,
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/dorm)
 "Yt" = (
@@ -2753,7 +2913,11 @@
 	},
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/plasteel/lightgrey,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 "Zz" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2769,12 +2933,17 @@
 	pixel_y = 4
 	},
 /obj/effect/turf_decal/siding/wideplating/light,
+/obj/machinery/firealarm/directional/south,
 /turf/open/floor/plasteel/lightgrey,
 /area/ship/hallway/central)
 "ZJ" = (
 /obj/structure/sign/number/random,
 /turf/open/floor/engine/hull/reinforced,
-/area/ship/external/dark)
+/area/ship/external/dark{
+	power_environ = 0;
+	power_equip = 0;
+	power_light = 0
+	})
 
 (1,1,1) = {"
 Pd
@@ -2885,7 +3054,7 @@ ef
 ef
 Pd
 Pd
-QO
+pb
 Ix
 si
 bu
@@ -3715,7 +3884,7 @@ Pd
 Pd
 Pd
 Pd
-WU
+Hk
 Fi
 qw
 KN
@@ -3789,7 +3958,7 @@ vk
 Pd
 Pd
 JK
-GH
+HH
 HD
 HD
 ef

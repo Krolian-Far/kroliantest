@@ -1,7 +1,7 @@
 	////////////
 	//SECURITY//
 	////////////
-#define UPLOAD_LIMIT 1048576	//Restricts client uploads to the server to 1MB //Could probably do with being lower.
+#define UPLOAD_LIMIT 101048576	//Restricts client uploads to the server to 1MB //Could probably do with being lower.
 
 GLOBAL_LIST_INIT(blacklisted_builds, list(
 	"1622" = "Bug breaking rendering can lead to wallhacks.",
