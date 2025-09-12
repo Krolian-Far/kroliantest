@@ -402,7 +402,16 @@
 /obj/effect/mapping_helpers/crate_shelve,
 /obj/structure/closet/crate/secure{
 	name = "inconspicuous crate";
-	desc = "A strangely uninteresting crate."
+	desc = "A strangely uninteresting crate. You're not sure if you should open it...";
+	req_access_txt = "20"
+	},
+/obj/item/clothing/suit/space/hardsuit/syndi,
+/obj/item/gun/ballistic/revolver/viper/empty,
+/obj/item/ammo_box/a357/empty,
+/obj/item/ammo_box/a357/empty,
+/obj/item/melee/sword/sabre{
+	name = "syndicate officer's sabre";
+	desc = "An elegant weapon, its monomolecular edge is capable of cutting through flesh and bone with ease. This one has a syndicate S emblazoned on the bottom."
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/cargo)
@@ -2456,6 +2465,10 @@
 	},
 /turf/open/floor/plasteel/patterned/grid/dark,
 /area/ship/engineering)
+"SX" = (
+/obj/item/melee/energy/sword/saber,
+/turf/template_noop,
+/area/template_noop)
 "Tb" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
@@ -3761,7 +3774,7 @@ Pd
 Pd
 Pd
 Pd
-Pd
+SX
 Pd
 jg
 DB
