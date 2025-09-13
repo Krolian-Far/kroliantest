@@ -21,7 +21,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/directional/south,
 /obj/machinery/vending/cigarette,
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "aU" = (
 /obj/effect/decal/cleanable/dirt,
@@ -185,7 +185,7 @@
 "dG" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/miskilamo_big/seven,
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "dX" = (
 /obj/effect/decal/cleanable/dirt,
@@ -202,7 +202,7 @@
 	outfit = /datum/outfit/job/independent/miner;
 	mob_species = /datum/species/kepori
 	},
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "ef" = (
 /turf/open/floor/engine/hull,
@@ -286,7 +286,7 @@
 /obj/item/clothing/mask/breath,
 /obj/item/tank/internals/oxygen/yellow,
 /obj/item/clothing/head/helmet/space/light/engineer,
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "fh" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
@@ -411,7 +411,7 @@
 	desc = "An elegant weapon, its monomolecular edge is capable of cutting through flesh and bone with ease. This one has a syndicate S emblazoned on the bottom."
 	},
 /obj/effect/mapping_helpers/crate_shelve,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/plasteel/mono/dark/airless,
 /area/ship/cargo)
 "gJ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
@@ -447,7 +447,7 @@
 	dir = 8
 	},
 /obj/structure/foamedmetal,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/plasteel/mono/dark/airless,
 /area/ship/cargo)
 "hC" = (
 /obj/structure/cable{
@@ -623,7 +623,7 @@
 /obj/effect/turf_decal/box/corners{
 	dir = 4
 	},
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/plasteel/mono/dark/airless,
 /area/ship/cargo)
 "kf" = (
 /obj/structure/crate_shelf/built,
@@ -632,7 +632,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/plasteel/mono/dark/airless,
 /area/ship/cargo)
 "kl" = (
 /obj/effect/decal/cleanable/blood,
@@ -666,7 +666,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/plasteel/mono/dark/airless,
 /area/ship/cargo)
 "kM" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -674,7 +674,7 @@
 /obj/structure/sign/poster/random{
 	pixel_y = -32
 	},
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "ld" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
@@ -689,7 +689,7 @@
 /obj/effect/mapping_helpers/crate_shelve,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/research_notes/loot/medium,
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "ll" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
@@ -701,7 +701,7 @@
 /obj/effect/turf_decal/borderfloorwhite{
 	color = "#ADD8E6"
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plasteel/white/airless,
 /area/ship/medical)
 "lw" = (
 /turf/open/floor/plating/foam,
@@ -876,7 +876,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/plasteel/mono/dark/airless,
 /area/ship/cargo)
 "qw" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -884,7 +884,7 @@
 /obj/effect/turf_decal/sign/b,
 /obj/machinery/airalarm/directional/north,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "qH" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -895,7 +895,7 @@
 	pixel_y = 24;
 	pixel_x = 5
 	},
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "qR" = (
 /turf/open/floor/plating/rust,
@@ -906,7 +906,7 @@
 	},
 /obj/structure/foamedmetal,
 /obj/effect/decal/cleanable/robot_debris,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/plasteel/mono/dark/airless,
 /area/ship/cargo)
 "rM" = (
 /obj/machinery/door/airlock/medical{
@@ -954,7 +954,7 @@
 	name = "telecommunication board crate"
 	},
 /obj/effect/mapping_helpers/crate_shelve,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/plasteel/mono/dark/airless,
 /area/ship/cargo)
 "tm" = (
 /obj/machinery/computer/crew/retro{
@@ -968,7 +968,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/box/corners,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/plasteel/mono/dark/airless,
 /area/ship/cargo)
 "tA" = (
 /turf/closed/wall/mineral/titanium,
@@ -1048,7 +1048,7 @@
 /obj/item/storage/backpack/satchel/explorer,
 /obj/item/storage/backpack/explorer,
 /obj/machinery/light/directional/south,
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "ur" = (
 /obj/structure/cable{
@@ -1111,7 +1111,7 @@
 	outfit = /datum/outfit/job/independent/security;
 	mob_species = /datum/species/kepori
 	},
-/turf/open/floor/plasteel/mono/white,
+/turf/open/floor/plasteel/mono/white/airless,
 /area/ship/medical)
 "vq" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1136,7 +1136,7 @@
 /obj/structure/sign/poster/official/help_others{
 	pixel_x = 32
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plasteel/white/airless,
 /area/ship/medical)
 "vN" = (
 /obj/structure/cable{
@@ -1146,7 +1146,7 @@
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
 	},
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "vW" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
@@ -1208,7 +1208,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "xc" = (
 /obj/structure/closet/secure_closet{
@@ -1273,7 +1273,7 @@
 	dir = 1
 	},
 /obj/structure/foamedmetal,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/plasteel/mono/dark/airless,
 /area/ship/cargo)
 "xT" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
@@ -1310,7 +1310,7 @@
 "yV" = (
 /obj/item/bedsheet/medical,
 /obj/structure/bed,
-/turf/open/floor/plasteel/mono/white,
+/turf/open/floor/plasteel/mono/white/airless,
 /area/ship/medical)
 "zg" = (
 /obj/machinery/power/smes/shuttle{
@@ -1419,7 +1419,7 @@
 	outfit = /datum/outfit/job/independent/assistant/cheap;
 	mob_species = /datum/species/kepori
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plasteel/white/airless,
 /area/ship/medical)
 "AG" = (
 /obj/machinery/power/terminal{
@@ -1475,7 +1475,7 @@
 /obj/item/reagent_containers/glass/beaker/large,
 /obj/item/storage/box/beakers,
 /obj/effect/mapping_helpers/crate_shelve,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/plasteel/mono/dark/airless,
 /area/ship/cargo)
 "Du" = (
 /obj/structure/closet/secure_closet{
@@ -1490,7 +1490,7 @@
 /obj/item/spacecash/bundle/loadsamoney,
 /obj/item/circuitboard/machine/ltsrbt,
 /obj/item/blackmarket_uplink,
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "DB" = (
 /obj/machinery/door/airlock/mining/glass{
@@ -1550,7 +1550,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 5
 	},
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "Ee" = (
 /obj/structure/chair/plastic,
@@ -1575,7 +1575,7 @@
 /obj/effect/turf_decal/siding/black{
 	dir = 8
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plasteel/white/airless,
 /area/ship/medical)
 "EE" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
@@ -1610,7 +1610,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/sign/c,
 /obj/machinery/light/directional/north,
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "FC" = (
 /turf/closed/wall/mineral/titanium,
@@ -1818,7 +1818,7 @@
 /obj/item/desk_flag/gezena,
 /obj/item/sign/flag/gezena,
 /obj/item/clothing/head/gezena/flap/captain,
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "Iq" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
@@ -1886,7 +1886,7 @@
 /obj/effect/turf_decal/borderfloorwhite/full{
 	color = "#ADD8E6"
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plasteel/white/airless,
 /area/ship/medical)
 "JI" = (
 /obj/machinery/door/airlock/public{
@@ -1930,7 +1930,7 @@
 /obj/item/gun_maint_kit,
 /obj/structure/closet/crate/secure/weapon,
 /obj/effect/mapping_helpers/crate_shelve,
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "Kd" = (
 /obj/structure/table,
@@ -1968,7 +1968,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/plasteel/mono/dark/airless,
 /area/ship/cargo)
 "Lc" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2053,7 +2053,7 @@
 	dir = 1;
 	color = "#ADD8E6"
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plasteel/white/airless,
 /area/ship/medical)
 "Ms" = (
 /obj/effect/decal/cleanable/plasma,
@@ -2125,7 +2125,7 @@
 /obj/item/clothing/under/rank/medical/doctor,
 /obj/item/clothing/under/rank/medical/doctor/skirt,
 /obj/item/clothing/glasses/hud/health,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plasteel/white/airless,
 /area/ship/medical)
 "MU" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
@@ -2135,7 +2135,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/box/corners,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel/mono/dark,
+/turf/open/floor/plasteel/mono/dark/airless,
 /area/ship/cargo)
 "Nk" = (
 /obj/machinery/door/poddoor/shutters{
@@ -2153,7 +2153,7 @@
 	pixel_y = 9;
 	amount = 4
 	},
-/turf/open/floor/plasteel/mono/white,
+/turf/open/floor/plasteel/mono/white/airless,
 /area/ship/medical)
 "Nx" = (
 /obj/structure/table,
@@ -2263,7 +2263,7 @@
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
 	},
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "Pg" = (
 /obj/effect/spawner/random/bedsheet,
@@ -2303,7 +2303,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/plastic,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plasteel/white/airless,
 /area/ship/medical)
 "PM" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
@@ -2338,7 +2338,7 @@
 "Qf" = (
 /obj/machinery/light/directional/east,
 /obj/effect/decal/cleanable/shreds,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plasteel/white/airless,
 /area/ship/medical)
 "Qx" = (
 /obj/effect/decal/cleanable/blood/squirt{
@@ -2375,7 +2375,7 @@
 	pixel_x = 19;
 	dir = 8
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plasteel/white/airless,
 /area/ship/medical)
 "RB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2442,7 +2442,7 @@
 /obj/effect/turf_decal/siding/black{
 	dir = 8
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plasteel/white/airless,
 /area/ship/medical)
 "SA" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
@@ -2644,7 +2644,7 @@
 "Vn" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/miskilamo_big/six,
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "Vs" = (
 /obj/structure/cable{
@@ -2684,7 +2684,7 @@
 	dir = 9
 	},
 /obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plasteel/white/airless,
 /area/ship/medical)
 "Wg" = (
 /obj/item/radio/intercom/wideband/directional/north,
@@ -2742,7 +2742,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/miskilamo_big/one,
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "WK" = (
 /obj/structure/cable{
@@ -2898,12 +2898,12 @@
 	},
 /obj/effect/turf_decal/sign/a,
 /obj/machinery/light/directional/north,
-/turf/open/floor/plasteel/patterned/cargo_one,
+/turf/open/floor/plasteel/patterned/cargo_one/external,
 /area/ship/cargo)
 "Zj" = (
 /obj/structure/bed/roller,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/mono/white,
+/turf/open/floor/plasteel/mono/white/airless,
 /area/ship/medical)
 "Zq" = (
 /obj/machinery/power/shuttle/engine/electric,
