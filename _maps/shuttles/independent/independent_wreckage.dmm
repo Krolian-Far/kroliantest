@@ -1264,11 +1264,8 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "xy" = (
-/obj/effect/mob_spawn/human/corpse/assistant{
-	outfit = /datum/outfit/job/independent/assistant/cheap;
-	mob_species = /datum/species/kepori
-	},
-/turf/open/floor/plating/airless,
+/obj/structure/foamedmetal,
+/turf/open/floor/plating/foam,
 /area/ship/medical)
 "xS" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1418,6 +1415,10 @@
 	color = "#ADD8E6"
 	},
 /obj/machinery/firealarm/directional/east,
+/obj/effect/mob_spawn/human/corpse/assistant{
+	outfit = /datum/outfit/job/independent/assistant/cheap;
+	mob_species = /datum/species/kepori
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
 "AG" = (
@@ -3399,8 +3400,8 @@ Pd
 Ey
 Pu
 RZ
-Pd
-Pd
+xy
+xy
 Pd
 Pd
 "}
@@ -3467,7 +3468,7 @@ Pd
 QU
 Qf
 AD
-Pd
+xy
 vD
 VE
 qR
