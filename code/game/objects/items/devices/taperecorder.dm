@@ -433,7 +433,7 @@
 		120
 	)
 /obj/item/tape/random/preset/wreckage/engineer
-	desc = "A magnetic tape that can hold up to ten minutes of content. This one appears to be scratched up, but not in an attempt to destroy it- as the tape is still conpletely intact. It will need to be wound back in, though. A screwdriver or pen should work."
+	desc = "A magnetic tape that can hold up to ten minutes of content. This one appears to be scratched up, but not in an attempt to destroy it; as the tape is still completely intact. It will need to be wound back in, though, and a screwdriver or pen should work."
 	ruined = 1
 	used_capacity = 60
 
@@ -451,13 +451,13 @@
 		"\[00:25\] dejected kepori solemnly chirps, \"I'm sorry I can't stick around. I've gotta find my way outta 'ere alone or die tryin'- cause I'm goin' crazy from th' loneliness.\"",
 		"\[00:28\] dejected kepori chirps, \"I foamed up what I could, an' I'm gonna foam up th' exit I take so ya'll don't get monoxide in ya' lungs.\"",
 		"\[00:31\] pen tapping on metal",
-		"\[00:34\] dejected kepori grumbles, \"An', if ya' see the captain? |Beat the fek outta him fer stranding me on this rock|. Please.\"",
-		"\[00:37\] dejected kepori rasps, \"If ya had t' rewind th' tape t' hear this, I needed the relief. Tha's all. I ain't got nothin' t' hide.\"",
+		"\[00:34\] dejected kepori grumbles, \"An', if ya' see th' captain? |Beat th' fek outta him fer stranding me on this rock|. Please.\"",
+		"\[00:37\] dejected kepori rasps, \"If ya had t' rewind th' tape t' hear this, I needed th' relief. Tha's all. I ain't got nothin' t' hide.\"",
 		"\[00:40\] dejected kepori chirps, \"Not like th' weasel of a 'captain' we had.. |Fekkin' prick|.\"",
 		"\[00:44\] dejected kepori chirps, \"When ya'll wake up, and you will- th' cyrogenics is gonna die out, don't come lookin' fer me. I'll be a day away by th' time ya' get ejected.\"",
 		"\[00:48\] dejected kepori warns, \"an' be careful. Th' clippers 'ave been sending shuttles around to search fer.. somethin'. Probably us, given.. y'know.\"",
 		"\[00:50\] shaky sigh, chair moving",
-		"\[00:55\] dejected kepori grumbles, \"nothin' more t' say.. ugh.. Fek this fekkin' ship.\"",
+		"\[00:55\] dejected kepori quietly grumbles, \"nothin' more t' say.. ugh.. Fek this fekkin' ship.\"",
 		"\[01:00\] Recording ended.",
 	)
 	timestamp = list(
