@@ -30,8 +30,10 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /obj/effect/mob_spawn/human/corpse{
-	outfit = /datum/outfit/job/independent/doctor
+	outfit = /datum/outfit/job/independent/doctor;
+	mob_species = /datum/species/kepori
 	},
+/obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/plasteel/lightgrey,
 /area/ship/external/dark{
 	power_environ = 0;
@@ -66,10 +68,6 @@
 	},
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/cargo)
-"br" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/foam,
-/area/ship/hallway/central)
 "bu" = (
 /obj/structure/railing/corner{
 	dir = 8
@@ -201,7 +199,8 @@
 	pixel_y = -24
 	},
 /obj/effect/mob_spawn/human/corpse{
-	outfit = /datum/outfit/job/independent/miner
+	outfit = /datum/outfit/job/independent/miner;
+	mob_species = /datum/species/kepori
 	},
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/cargo)
@@ -359,7 +358,6 @@
 /obj/machinery/door/firedoor/border_only/closed{
 	dir = 4
 	},
-/obj/structure/foamedmetal,
 /turf/open/floor/plasteel/lightgrey,
 /area/ship/hallway/central)
 "fN" = (
@@ -399,7 +397,6 @@
 /obj/item/ammo_box/magazine/sniper_rounds{
 	ammo_type = null
 	},
-/obj/effect/mapping_helpers/crate_shelve,
 /obj/structure/closet/crate/secure{
 	name = "inconspicuous crate";
 	desc = "A strangely uninteresting crate. You're not sure if you should open it...";
@@ -413,6 +410,7 @@
 	name = "syndicate officer's sabre";
 	desc = "An elegant weapon, its monomolecular edge is capable of cutting through flesh and bone with ease. This one has a syndicate S emblazoned on the bottom."
 	},
+/obj/effect/mapping_helpers/crate_shelve,
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/cargo)
 "gJ" = (
@@ -421,7 +419,7 @@
 /obj/effect/turf_decal/siding/wideplating/light{
 	dir = 1
 	},
-/obj/structure/foamedmetal,
+/obj/item/radio/intercom/directional/north,
 /turf/open/floor/plasteel/lightgrey,
 /area/ship/hallway/central)
 "hh" = (
@@ -534,9 +532,6 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/wideplating/light/corner,
-/obj/effect/decal/cleanable/blood/tracks{
-	dir = 5
-	},
 /turf/open/floor/plasteel/lightgrey,
 /area/ship/external/dark{
 	power_environ = 0;
@@ -647,7 +642,10 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/effect/mob_spawn/human/corpse/indie/engineer,
+/obj/effect/mob_spawn/human/corpse/indie/engineer{
+	mob_species = /datum/species/kepori
+	},
+/obj/item/radio/intercom/directional/east,
 /turf/open/floor/pod/dark,
 /area/ship/engineering)
 "kt" = (
@@ -753,6 +751,10 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/crew/canteen)
+"lZ" = (
+/obj/item/melee/energy/sword/saber,
+/turf/template_noop,
+/area/template_noop)
 "ms" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -797,6 +799,7 @@
 /area/ship/crew/dorm)
 "nW" = (
 /obj/structure/table,
+/obj/item/tape/random/preset/wreckage/engineer,
 /turf/open/floor/plasteel/patterned,
 /area/ship/crew/canteen)
 "nY" = (
@@ -1105,7 +1108,8 @@
 	icon_state = "floor3"
 	},
 /obj/effect/mob_spawn/human/corpse{
-	outfit = /datum/outfit/job/independent/security
+	outfit = /datum/outfit/job/independent/security;
+	mob_species = /datum/species/kepori
 	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/medical)
@@ -1261,7 +1265,8 @@
 /area/ship/engineering)
 "xy" = (
 /obj/effect/mob_spawn/human/corpse/assistant{
-	outfit = /datum/outfit/job/independent/assistant/cheap
+	outfit = /datum/outfit/job/independent/assistant/cheap;
+	mob_species = /datum/species/kepori
 	},
 /turf/open/floor/plating/airless,
 /area/ship/medical)
@@ -1323,6 +1328,7 @@
 /turf/open/floor/pod/dark,
 /area/ship/engineering)
 "zm" = (
+/obj/structure/foamedmetal,
 /turf/open/floor/plating/foam,
 /area/ship/hallway/central)
 "zn" = (
@@ -1496,7 +1502,6 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/cargo)
 "DF" = (
@@ -1543,9 +1548,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 5
-	},
-/obj/effect/decal/cleanable/blood/tracks{
-	dir = 10
 	},
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/cargo)
@@ -1713,9 +1715,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wideplating/light,
-/obj/effect/decal/cleanable/blood/tracks{
-	dir = 4
-	},
+/obj/item/radio/intercom/directional/south,
 /turf/open/floor/plasteel/lightgrey,
 /area/ship/external/dark{
 	power_environ = 0;
@@ -1817,9 +1817,6 @@
 /obj/item/desk_flag/gezena,
 /obj/item/sign/flag/gezena,
 /obj/item/clothing/head/gezena/flap/captain,
-/obj/effect/decal/cleanable/blood/tracks{
-	dir = 5
-	},
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/cargo)
 "Iq" = (
@@ -2169,6 +2166,7 @@
 	pixel_x = -4;
 	desc = "A mass of semi-carbonized matter. The idea of eating this only makes you realize the desperation in the act."
 	},
+/obj/item/radio/intercom/directional/west,
 /turf/open/floor/plasteel/white,
 /area/ship/crew/canteen)
 "NI" = (
@@ -2212,6 +2210,9 @@
 /obj/item/clothing/under/rank/command/captain,
 /obj/item/clothing/under/rank/command/captain/skirt,
 /obj/machinery/light/directional/north,
+/obj/item/radio/intercom/directional/east{
+	pixel_y = 4
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
 "Ow" = (
@@ -2247,7 +2248,6 @@
 /obj/machinery/door/firedoor/border_only/closed{
 	dir = 4
 	},
-/obj/structure/foamedmetal,
 /turf/open/floor/plasteel/lightgrey,
 /area/ship/hallway/central)
 "OD" = (
@@ -2465,10 +2465,6 @@
 	},
 /turf/open/floor/plasteel/patterned/grid/dark,
 /area/ship/engineering)
-"SX" = (
-/obj/item/melee/energy/sword/saber,
-/turf/template_noop,
-/area/template_noop)
 "Tb" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
@@ -2571,9 +2567,6 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/paper/crumpled{
-	default_raw_text = "I FOAMED UP WHAT I COULD GOOD LUCK WHOEVER ELSE WAKES UP"
-	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/crew/dorm)
 "Uj" = (
@@ -2635,6 +2628,7 @@
 /area/ship/hallway/central)
 "UY" = (
 /obj/structure/closet/crate/rations,
+/obj/item/radio/intercom/directional/south,
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/cargo)
 "Vl" = (
@@ -2699,7 +2693,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
 /obj/item/paper_bin,
-/obj/item/tape/random/preset/captain,
+/obj/item/tape/random/preset/wreckage/captain,
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
 "Wj" = (
@@ -2711,9 +2705,6 @@
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/fax{
-	desc = "Your only line to the outside world."
-	},
 /obj/structure/table/reinforced,
 /obj/item/paper{
 	name = "WARRANT";
@@ -2721,6 +2712,7 @@
 	default_raw_text = "<head><table bgcolor="#1b4670" width="100%" height="10%"><th><font size="1" color="white">CLIP-CMM<br>WARRANT</div></font></th><th><div align="right"><font size="1" color="white">[CMSV After-Action]<br>GOLD-WRNT-PR</div></th></head></table><table frame="below" bgcolor="#25619c" width="100%" height="10%"><td><center><font color="white" size="3">Vessel Search Warrant<br>Under jurisdiction of CLIP-GOLD</td></center></font></table><code><br><center>Acting on behalf of CLIP-GOLD;<br></center>The CMM vessel, [CMSV After-Action], will be conducting a search of the vessel flagged with the transponder of [SV Nebulae].<br><br>This warrant was penned and authorised by<br>[Rear Admiral Juwee-Irnes] and the cause for it to be enacted is as follows.<br><br><b>[Suspected smuggling operations, reasonable suspicious of harboring a fugitive.]</b><br><br>This reason may be disputed at your nearest GOLD office. Non-contraband items will not be taken under any circumstance. Should contraband be discovered without prior information, you may be fined or charged with possession. If you or any crew have any outstanding arrest warrants, fleeing will be punished with higher severity. Upon receiving this warrant, you are required to halt and comply with any instructions from the transmitting CLIP authority.<br><br>Contrabands are as follows.<br><b>[Any manner of pirate equipment*, high caliber firearms, explosives, narcotics, stolen CLIP equipment, sensitive CLIP information, or unregistered weaponry.]<br>[*"Pirateequipment" includes but is not limited to: Rusted red hardsuits (Ramzi Clique), Green-grey attire/armor (Frontiersmen), Shoal-made firearms (Frontiersmen), Blood-red hardsuits (Ramzi Clique)]</b><br><font color="blue">Some contraband items may be excused if you inform the authority of the presence of it and why you are in possession of it.</font><br><font color="red">Pirate equipment is zero tolerance and failure to surrender it will be punished.</font><br><br>Once you are given the all-clear, you may continue on your day. Any outstanding fines given and that could not be paid should be paid before you leave the sector or there will be consequences, possibly resulting in an arrest warrant being placed on you."
 	},
 /obj/machinery/firealarm/directional/west,
+/obj/machinery/fax/ruin,
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
 "Wn" = (
@@ -2905,9 +2897,6 @@
 	},
 /obj/effect/turf_decal/sign/a,
 /obj/machinery/light/directional/north,
-/obj/effect/decal/cleanable/blood/tracks{
-	dir = 4
-	},
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/cargo)
 "Zj" = (
@@ -3430,7 +3419,7 @@ uK
 uK
 IE
 gJ
-Pd
+zm
 Pd
 Pd
 Pd
@@ -3464,7 +3453,7 @@ nn
 Pg
 IE
 vq
-Pd
+zm
 Pd
 Pd
 Pd
@@ -3497,8 +3486,8 @@ TY
 PM
 Pg
 IE
-br
-Pd
+zm
+zm
 Pd
 Pd
 Pd
@@ -3565,7 +3554,7 @@ uK
 uK
 uK
 IE
-br
+zm
 Pd
 Pd
 Pd
@@ -3774,7 +3763,7 @@ Pd
 Pd
 Pd
 Pd
-SX
+lZ
 Pd
 jg
 DB

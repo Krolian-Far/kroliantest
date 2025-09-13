@@ -377,50 +377,107 @@
 //optional: set max capacity to used capacity
 //optional: set ruined var (you can fix this with a pen)
 
-/obj/item/tape/random/preset/captain
-	ruined = 1
-	used_capacity = 90
-	max_capacity = 90
+/obj/item/tape/random/preset/wreckage/captain
+	used_capacity = 120
 
-/obj/item/tape/random/preset/captain/Initialize()
+/obj/item/tape/random/preset/wreckage/captain/Initialize()
 	. = ..()
 	storedinfo = list(
 		"\[00:00\] Recording started.",
-		"\[00:03\] frantic kepori hastily chirps, \"They'll be here any minute...\"",
-		"\[00:06\] frantic kepori hastily chirps, \"What do I say..? To hell with it, they wouldn't believe me...\"",
-		"\[00:12\] rustling, then a loud crackle",
-		"\[00:14\] wideband relay alarms, \"SV Nebulae! Desist your fleeing this instant or be fired upon!\"",
-		"\[00:17\] frantic kepori loudly retorts, \"G-GO TO HELL, BLUEBERRIES!!\"",
-		"\[00:22\] wideband relay alarms, \"SV Nebulae, this is your final warning! Halt your ship or we will resort to firing our main battery!\"",
-		"\[00:27\] loud explosions, hull creaking",
-		"\[00:29\] frantic kepori screams, \"Shh-shit! CREW?! PREPARE FOR- ERM- EHH-EVASIVE MANEUVERS- HOLD ON- WHY AREN'T MMYYY ENGINES WORKING?!\"",
-		"\[00:32\] frantic kepori chirps, \"Fffuck, how do I-\"",
-		"\[00:34\] distant explosions, hull creaking",
-		"\[00:36\] frantic kepori chirps, \"I need- I need a moment- okay.. I need to help my crew- we're in orbit.. we'll crash land.. and- and they shouldn't chase..\"",
-		"\[00:40\] frantic kepori declares, \"Yes.. yes, that will work.. er..\"",
-		"\[00:43\] frantic kepori exclaims, \"CREW?! I'M COMING TO HELP! JUST, JUST DO DAMAGE CONTROL FOR NOW, WE'LL-!\"",
-		"\[00:45\] airlock opens, loud depressurization, rapidly fading scream",
-		"\[00:47\] airlock closes",
-		"\[01:29\] bridge recorder states, \"Internal storage filled. Ejecting tape.\"",
-		"\[01:30\] Recording ended.",
+		"\[00:02\] loud rustling, heavy breathing",
+		"\[00:05\] frantic kepori shakily speaks, \"This.. uhm.. This is Captain Suuri Natir-Eshi, and..\"",
+		"\[00:07\] paper rustling, upset sigh",
+		"\[00:10\] frantic kepori shakily speaks, \"We- We're aboard a Befallen-class freighter. For.. |some reason|,  the- the.. Colonials, they want me to.. submit to a search.\"",
+		"\[00:12\] frantic kepori suddenly shouts, \"And I'll be DAMNED If- If I let some blueberries walk all over +my+ fucking sh-ship! Yeah..! eerm..\"",
+		"\[00:15\] hull groaning, two radar pings",
+		"\[00:18\] frantic kepori hastily chirps, \"They'll be here any minute...\"",
+		"\[00:21\] frantic kepori hastily chirps, \"What do I say..? To hell with it, they wouldn't believe me...\"",
+		"\[00:27\] rustling, then a loud crackle",
+		"\[00:29\] wideband relay alarms, \"SV Nebulae! Desist your fleeing this instant or be fired upon!\"",
+		"\[00:32\] frantic kepori loudly retorts, \"+G-GO TO HELL, BLUEBERRIES!!+\"",
+		"\[00:37\] wideband relay alarms, \"SV Nebulae, this is your final warning! Halt your ship or we will resort to firing our main battery!\"",
+		"\[00:42\] loud explosions, hull creaking",
+		"\[00:45\] frantic kepori screams, \"Shh-shit! CREW?! PREPARE FOR- ERM- EHH-EVASIVE MANEUVERS- HOLD ON- +WHY AREN'T MMYYY ENGINES WORKING?!+\"",
+		"\[00:48\] frantic kepori chirps, \"Fffuck, how do I-\"",
+		"\[00:50\] distant explosions, hull creaking",
+		"\[00:54\] frantic kepori chirps, \"I need- I need a moment- okay.. I need to help my crew- we're in orbit.. we'll crash land.. and- and they shouldn't chase..\"",
+		"\[00:57\] frantic kepori declares, \"Yes.. yes, that will work.. er..\"",
+		"\[01:00\] frantic kepori exclaims, \"CREW?! I'M COMING TO HELP! JUST, JUST DO DAMAGE CONTROL FOR NOW, WE'LL-!\"",
+		"\[01:02\] airlock opens, loud depressurization, rapidly fading scream",
+		"\[01:05\] airlock closes",
+		"\[02:00\] bridge recorder states, \"Internal storage filled. Ejecting tape.\"",
 	)
 	timestamp = list(
 		0,
-		3,
-		6,
+		2,
+		5,
+		7,
+		10,
 		12,
-		14,
-		17,
-		22,
+		15,
+		18,
+		21,
 		27,
 		29,
 		32,
-		34,
-		36,
-		40,
-		43,
+		37,
+		42,
 		45,
-		47,
-		89,
-		90
+		48,
+		50,
+		54,
+		57,
+		60,
+		62,
+		65,
+		120
+	)
+/obj/item/tape/random/preset/wreckage/engineer
+	desc = "A magnetic tape that can hold up to ten minutes of content. This one appears to be scratched up, but not in an attempt to destroy it- as the tape is still conpletely intact. It will need to be wound back in, though. A screwdriver or pen should work."
+	ruined = 1
+	used_capacity = 60
+
+/obj/item/tape/random/preset/wreckage/engineer/Initialize()
+	. = ..()
+	storedinfo = list(
+		"\[00:00\] Recording started.",
+		"\[00:02\] dejected kepori solemnly chirps, \".. 'ere we go, alright..\"",
+		"\[00:05\] long inhale, heavy sigh",
+		"\[00:09\] dejected kepori chirps, \"Three whole days on this rock. I don' need'ta tell ya'll how that makes a man feel.\"",
+		"\[00:12\] rustling, chair creaking",
+		"\[00:15\] dejected kepori chirps, \"I've been through th' wringer enough to know this is a lost cause, so I'm gettin' th' fuck outta dodge before th' air runs out.\"",
+		"\[00:18\] dejected kepori chirps loudly, \"I can't keep +fekkin+ waitin' on ya'll to wake up, slowly losin' my mind as th' power slowly dies!\"",
+		"\[00:22\] long sigh, plastic clattering",
+		"\[00:25\] dejected kepori solemnly chirps, \"I'm sorry I can't stick around. I've gotta find my way outta 'ere alone or die tryin'- cause I'm goin' crazy from th' loneliness.\"",
+		"\[00:28\] dejected kepori chirps, \"I foamed up what I could, an' I'm gonna foam up th' exit I take so ya'll don't get monoxide in ya' lungs.\"",
+		"\[00:31\] pen tapping on metal",
+		"\[00:34\] dejected kepori grumbles, \"An', if ya' see the captain? |Beat the fek outta him fer stranding me on this rock|. Please.\"",
+		"\[00:37\] dejected kepori rasps, \"If ya had t' rewind th' tape t' hear this, I needed the relief. Tha's all. I ain't got nothin' t' hide.\"",
+		"\[00:40\] dejected kepori chirps, \"Not like th' weasel of a 'captain' we had.. |Fekkin' prick|.\"",
+		"\[00:44\] dejected kepori chirps, \"When ya'll wake up, and you will- th' cyrogenics is gonna die out, don't come lookin' fer me. I'll be a day away by th' time ya' get ejected.\"",
+		"\[00:48\] dejected kepori warns, \"an' be careful. Th' clippers 'ave been sending shuttles around to search fer.. somethin'. Probably us, given.. y'know.\"",
+		"\[00:50\] shaky sigh, chair moving",
+		"\[00:55\] dejected kepori grumbles, \"nothin' more t' say.. ugh.. Fek this fekkin' ship.\"",
+		"\[01:00\] Recording ended.",
+	)
+	timestamp = list(
+		0,
+		2,
+		5,
+		9,
+		12,
+		15,
+		18,
+		22,
+		25,
+		28,
+		31,
+		34,
+		37,
+		40,
+		44,
+		48,
+		50,
+		55,
+		60
 	)
