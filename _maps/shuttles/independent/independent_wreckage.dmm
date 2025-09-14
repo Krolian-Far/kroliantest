@@ -2171,6 +2171,7 @@
 /obj/item/clothing/under/rank/medical/doctor,
 /obj/item/clothing/under/rank/medical/doctor/skirt,
 /obj/item/clothing/glasses/hud/health,
+/obj/item/pinpointer/crew/prox,
 /turf/open/floor/plasteel/white/airless,
 /area/ship/medical)
 "MU" = (
