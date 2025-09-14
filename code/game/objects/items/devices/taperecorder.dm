@@ -433,7 +433,6 @@
 		120
 	)
 /obj/item/tape/random/preset/wreckage/engineer
-	desc = "A magnetic tape that can hold up to ten minutes of content. This one appears to be scratched up, but not in an attempt to destroy it; as the tape is still completely intact. It will need to be wound back in, though, and a screwdriver or pen should work."
 	ruined = 1
 	used_capacity = 60
 
