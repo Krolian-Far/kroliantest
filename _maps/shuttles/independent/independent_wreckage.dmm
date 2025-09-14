@@ -656,6 +656,7 @@
 	mob_species = /datum/species/kepori
 	},
 /obj/item/radio/intercom/directional/east,
+/obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/pod/dark,
 /area/ship/engineering)
 "kt" = (
@@ -787,7 +788,7 @@
 "mO" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/miskilamo_big/eight,
-/obj/structure/foamedmetal,
+/obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/cargo)
 "mW" = (
