@@ -1,0 +1,39 @@
+{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"map_name": "Addendum-class Re-Colonization Bunker",
+	"map_short_name": "Addendum-class",
+	"faction": "/datum/faction/independent",
+	"prefix": null,
+	"manufacturer": "ISF",
+	"namelists": ["GENERAL", "SPACE"],
+	"map_path": "_maps/shuttles/independent/independent_capsule.dmm",
+	"limit": 1,
+	"spawn_time_coeff": 1.5,
+	"officer_time_coeff": 0.5,
+	"job_slots": {
+		"Recolonization Chief": {
+			"outfit": "/datum/outfit/job/independent/captain",
+			"officer": true,
+			"slots": 1
+		},
+		"Paramilitary Sergeant": {
+			"outfit": "/datum/outfit/job/independent/hos/merc",
+			"officer": true,
+			"slots": 1
+		},
+		"Paramilitary Trooper": {
+			"outfit": "/datum/outfit/job/independent/security/merc",
+			"slots": 2
+		},
+		"Engineering Staff": {
+			"outfit": "/datum/outfit/job/independent/engineer",
+			"slots": 2
+		},
+		"Assistant": {
+			"outfit": "/datum/outfit/job/independent/assistant",
+			"slots": 3
+		}
+	},
+	"enabled": false,
+	"space_spawn": false
+}
