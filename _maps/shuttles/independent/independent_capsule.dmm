@@ -31,7 +31,7 @@
 /area/ship/external)
 "ap" = (
 /obj/machinery/door/poddoor{
-	id = "cargoouter";
+	id = cargoouter;
 	dir = 4
 	},
 /turf/open/floor/concrete/reinforced,
@@ -154,17 +154,22 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 4
 	},
-/turf/open/floor/engine/n2,
+/turf/open/floor/engine/air,
 /area/ship/engineering/atmospherics)
 "cM" = (
-/obj/machinery/button{
-	pixel_x = 9;
-	pixel_y = 8;
-	id = "lockdown";
-	name = "airlock lockdown override";
-	dir = 4
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -22
 	},
-/turf/closed/wall/concrete/reinforced,
+/obj/machinery/button/door{
+	dir = 4;
+	name = "airlock lockdown override";
+	id = lockdown;
+	pixel_x = -23;
+	pixel_y = 7
+	},
+/turf/open/floor/plasteel/patterned/grid,
 /area/ship/engineering/communications)
 "da" = (
 /obj/machinery/atmospherics/components/unary/passive_vent/layer2{
@@ -344,14 +349,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/concrete/slab_2,
 /area/ship/cargo)
-"fx" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light_switch{
-	dir = 4;
-	pixel_x = -22
-	},
-/turf/open/floor/plasteel/patterned/grid,
-/area/ship/engineering/communications)
 "fB" = (
 /obj/machinery/door/airlock/medical/glass{
 	dir = 4;
@@ -446,11 +443,12 @@
 	icon_state = "0-10"
 	},
 /obj/machinery/door/poddoor{
-	id = "cargoinner";
+	id = cargoinner;
 	dir = 4
 	},
 /obj/machinery/power/shieldwallgen/atmos{
-	id = "innerfield"
+	id = "innerfield";
+	anchored = 1
 	},
 /obj/structure/platform/military/corner{
 	dir = 4
@@ -544,7 +542,7 @@
 /obj/structure/window/plasma/reinforced{
 	dir = 1
 	},
-/turf/open/floor/engine/air,
+/turf/open/floor/engine/n2,
 /area/ship/engineering/atmospherics)
 "hC" = (
 /obj/effect/turf_decal/industrial/traffic{
@@ -652,7 +650,7 @@
 	icon_state = "6-8"
 	},
 /obj/machinery/door/poddoor{
-	id = "cargoinner";
+	id = cargoinner;
 	dir = 4
 	},
 /turf/open/floor/concrete/reinforced,
@@ -979,11 +977,12 @@
 	icon_state = "0-10"
 	},
 /obj/machinery/door/poddoor{
-	id = "cargoouter";
+	id = cargoouter;
 	dir = 4
 	},
 /obj/machinery/power/shieldwallgen/atmos{
-	id = "outerfield"
+	id = "outerfield";
+	anchored = 1
 	},
 /turf/open/floor/concrete/reinforced,
 /area/ship/cargo)
@@ -1006,12 +1005,13 @@
 	icon_state = "0-9"
 	},
 /obj/machinery/door/poddoor{
-	id = "cargoinner";
+	id = cargoinner;
 	dir = 4
 	},
 /obj/machinery/power/shieldwallgen/atmos{
 	id = "innerfield";
-	dir = 1
+	dir = 1;
+	anchored = 1
 	},
 /turf/open/floor/concrete/reinforced,
 /area/ship/cargo)
@@ -1155,13 +1155,6 @@
 /area/ship/cargo)
 "ti" = (
 /obj/structure/reagent_dispensers/watertank,
-/obj/machinery/button{
-	pixel_x = 24;
-	id = "cargoinner";
-	name = "Interior blastdoors";
-	dir = 8;
-	pixel_y = 3
-	},
 /obj/machinery/button/shieldwallgen{
 	name = "inner holofield switch";
 	pixel_x = 23;
@@ -1170,6 +1163,13 @@
 	dir = 8
 	},
 /obj/structure/railing,
+/obj/machinery/button/door{
+	pixel_y = 3;
+	dir = 8;
+	pixel_x = 24;
+	id = cargoinner;
+	name = "inner blastdoors"
+	},
 /turf/open/floor/concrete/tiles,
 /area/ship/cargo)
 "tp" = (
@@ -1413,7 +1413,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/on/layer4{
 	dir = 4
 	},
-/turf/open/floor/engine/n2,
+/turf/open/floor/engine/air,
 /area/ship/engineering/atmospherics)
 "yn" = (
 /obj/machinery/atmospherics/pipe/simple/dark/visible{
@@ -1525,7 +1525,7 @@
 	icon_state = "0-2"
 	},
 /obj/structure/lattice/lava,
-/turf/open/lava/smooth,
+/turf/open/floor/fakepit,
 /area/ship/engineering)
 "Bv" = (
 /turf/open/floor/plasteel/stairs/left{
@@ -1640,7 +1640,10 @@
 	},
 /obj/machinery/door/poddoor/shutters{
 	name = "Lockdown shutters";
-	id = "lockdown";
+	id = lockdown;
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
@@ -1653,8 +1656,9 @@
 	},
 /obj/machinery/door/poddoor/shutters{
 	name = "Lockdown shutters";
-	id = "lockdown"
+	id = lockdown
 	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_target,
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/ship/engineering/atmospherics)
 "Dh" = (
@@ -1712,13 +1716,6 @@
 /area/ship/crew)
 "EJ" = (
 /obj/machinery/suit_storage_unit/inherit/industrial,
-/obj/machinery/button{
-	pixel_x = -24;
-	id = "cargoinner";
-	name = "Interior blastdoors";
-	pixel_y = 3;
-	dir = 4
-	},
 /obj/machinery/button/shieldwallgen{
 	name = "inner holofield switch";
 	pixel_x = -23;
@@ -1734,6 +1731,13 @@
 	desc = "An extremely old dark red space suit. Age has degraded the suit, making it difficult to move around in."
 	},
 /obj/item/clothing/mask/breath,
+/obj/machinery/button/door{
+	pixel_y = 3;
+	dir = 4;
+	pixel_x = -24;
+	name = "inner blastdoors";
+	id = cargoinner
+	},
 /turf/open/floor/concrete/reinforced,
 /area/ship/cargo)
 "EL" = (
@@ -1888,11 +1892,12 @@
 	},
 /obj/machinery/door/poddoor/shutters{
 	name = "Lockdown shutters";
-	id = "lockdown"
+	id = lockdown
 	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper_target,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_target,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/ship/hallway/central)
 "GM" = (
@@ -2260,7 +2265,7 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 8
 	},
-/turf/open/floor/engine/air,
+/turf/open/floor/engine/n2,
 /area/ship/engineering/atmospherics)
 "Nn" = (
 /obj/structure/platform/military{
@@ -2416,7 +2421,7 @@
 /obj/machinery/suit_storage_unit/inherit/industrial,
 /obj/machinery/button{
 	pixel_x = 24;
-	id = "cargoouter";
+	id = cargoouter;
 	name = "Exterior blastdoors";
 	pixel_y = 3;
 	dir = 8
@@ -2440,6 +2445,13 @@
 	desc = "An extremely old dark red space suit. Age has degraded the suit, making it difficult to move around in."
 	},
 /obj/item/clothing/mask/breath,
+/obj/machinery/button/door{
+	pixel_y = 3;
+	dir = 8;
+	pixel_x = 24;
+	name = "outer blastdoors";
+	id = cargoouter
+	},
 /turf/open/floor/concrete/reinforced,
 /area/ship/cargo)
 "OZ" = (
@@ -2948,11 +2960,12 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/machinery/advanced_airlock_controller/directional/south,
 /turf/open/floor/concrete/reinforced,
 /area/ship/engineering/atmospherics)
 "WD" = (
 /obj/machinery/door/poddoor{
-	id = "cargoinner";
+	id = cargoinner;
 	dir = 4
 	},
 /turf/open/floor/concrete/reinforced,
@@ -2977,15 +2990,13 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/poddoor/shutters{
-	name = "Lockdown shutters";
-	id = "lockdown"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/door/poddoor/shutters{
+	name = "Lockdown shutters";
+	id = lockdown
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_target,
 /turf/open/floor/concrete/reinforced,
 /area/ship/hallway/central)
 "Xf" = (
@@ -3010,7 +3021,6 @@
 /area/ship/crew/cryo)
 "Xq" = (
 /obj/effect/spawner/bunk_bed,
-/obj/effect/spawner/random/bedsheet,
 /turf/open/floor/plasteel/tech,
 /area/ship/crew)
 "XK" = (
@@ -3026,7 +3036,7 @@
 /obj/machinery/button{
 	pixel_x = -24;
 	name = "Exterior blastdoors";
-	id = "cargoouter";
+	id = cargoouter;
 	pixel_y = 3;
 	dir = 4
 	},
@@ -3039,6 +3049,13 @@
 	},
 /obj/effect/turf_decal/industrial/warning/dust/corner{
 	dir = 4
+	},
+/obj/machinery/button/door{
+	pixel_y = 3;
+	dir = 4;
+	pixel_x = -24;
+	name = "outer blastdoors";
+	id = cargoouter
 	},
 /turf/open/floor/concrete/slab_1,
 /area/ship/external)
@@ -3102,12 +3119,13 @@
 	icon_state = "0-9"
 	},
 /obj/machinery/door/poddoor{
-	id = "cargoouter";
+	id = cargoouter;
 	dir = 4
 	},
 /obj/machinery/power/shieldwallgen/atmos{
 	id = "outerfield";
-	dir = 1
+	dir = 1;
+	anchored = 1
 	},
 /turf/open/floor/concrete/reinforced,
 /area/ship/cargo)
@@ -3387,7 +3405,7 @@ Nk
 ie
 ie
 ie
-cM
+ie
 ie
 ie
 "}
@@ -3413,7 +3431,7 @@ IX
 ie
 lS
 fY
-fx
+cM
 Is
 ie
 "}
@@ -3894,7 +3912,7 @@ zR
 zR
 zR
 zR
-sE
+zR
 sE
 sE
 sE
@@ -3920,8 +3938,8 @@ zR
 zR
 zR
 zR
+zR
 sE
-xO
 xO
 Fb
 iI
@@ -3946,9 +3964,9 @@ zR
 zR
 zR
 zR
+zR
 sE
-xO
-xO
+sE
 sE
 sE
 Jz
@@ -3972,10 +3990,10 @@ zR
 zR
 zR
 zR
-sE
-sE
-sE
-sE
+zR
+zR
+zR
+zR
 zR
 zR
 zR
