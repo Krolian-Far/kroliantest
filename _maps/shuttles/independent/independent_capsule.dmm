@@ -1524,8 +1524,10 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/obj/structure/lattice/lava,
-/turf/open/floor/fakepit,
+/turf/open/floor/fakepit{
+	name = "pit";
+	desc = "A long tunnel down into the ground. You don't want to fall in, but there are thankfully lots of supports to grab onto if you somehow manage to."
+	},
 /area/ship/engineering)
 "Bv" = (
 /turf/open/floor/plasteel/stairs/left{
@@ -1945,15 +1947,11 @@
 /turf/open/floor/concrete/slab_1,
 /area/ship/cargo)
 "HK" = (
-/obj/docking_port/stationary{
-	dheight = 32;
-	height = 32;
-	dwidth = 16;
-	width = 32;
-	dir = 4
+/obj/structure/sign/warning/nosmoking/burnt{
+	pixel_y = 32
 	},
-/turf/template_noop,
-/area/template_noop)
+/turf/open/floor/concrete/slab_2,
+/area/ship/external)
 "HM" = (
 /obj/machinery/autolathe,
 /turf/open/floor/plasteel/tech,
@@ -3917,7 +3915,7 @@ sE
 sE
 sE
 sE
-Yk
+HK
 GV
 Jz
 xH
@@ -4057,31 +4055,5 @@ Nw
 GW
 GW
 Fw
-zR
-"}
-(33,1,1) = {"
-zR
-zR
-zR
-zR
-zR
-zR
-zR
-zR
-zR
-zR
-zR
-zR
-zR
-zR
-zR
-zR
-zR
-zR
-zR
-zR
-HK
-zR
-zR
 zR
 "}
