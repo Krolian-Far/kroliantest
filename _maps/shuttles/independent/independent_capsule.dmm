@@ -1377,7 +1377,9 @@
 /turf/open/floor/concrete/slab_1,
 /area/ship/external)
 "xO" = (
-/turf/open/floor/engine/plasma,
+/turf/open/floor/engine/plasma{
+	initial_gas_mix = "plasma=700;TEMP=293.15"
+	},
 /area/ship/external/dark)
 "xU" = (
 /obj/machinery/airalarm/directional/east,
@@ -1767,7 +1769,9 @@
 /area/ship/engineering)
 "Fb" = (
 /obj/effect/decal/remains/human,
-/turf/open/floor/engine/plasma,
+/turf/open/floor/engine/plasma{
+	initial_gas_mix = "plasma=700;TEMP=293.15"
+	},
 /area/ship/external/dark)
 "Ff" = (
 /obj/structure/cable{
