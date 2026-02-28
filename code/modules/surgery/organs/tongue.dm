@@ -16,7 +16,8 @@
 	var/modifies_speech = FALSE
 	var/static/list/languages_possible_base = typecacheof(list(
 		/datum/language/galactic_common,
-		/datum/language/kalixcian_common,
+		/datum/language/gezena_kalixcian,
+		/datum/language/zohil_kalixcian,
 		/datum/language/teceti_unified,
 		/datum/language/solarian_international,
 		/datum/language/moffic,
@@ -24,6 +25,7 @@
 		/datum/language/ratvar,
 		/datum/language/codespeak,
 		/datum/language/aphasia,
+		/datum/language/league_kalixcian,
 	))
 
 /obj/item/organ/tongue/Initialize(mapload)
@@ -59,8 +61,8 @@
 /obj/item/organ/tongue/lizard/handle_speech(datum/source, list/speech_args)
 	// Sarathi tongues don't hiss when speaking Kalixcian. Or when signing.
 	// we should make non-sarathi hiss in Kalixcian
-	var/datum/language/language_used = speech_args[SPEECH_LANGUAGE]
-	if((language_used == /datum/language/kalixcian_common) || (initial(language_used?.flags) & SIGNED_LANGUAGE))
+	var/datum/language/lang_type = speech_args[SPEECH_LANGUAGE]
+	if(initial(lang_type.flags) & NO_HISS)
 		return
 
 	var/static/regex/lizard_hiss = new("s+", "g")
@@ -95,7 +97,9 @@
 	var/list/phomeme_types = list("sans", "papyrus")
 	var/static/list/languages_possible_skeleton = typecacheof(list(
 		/datum/language/galactic_common,
-		/datum/language/kalixcian_common,
+		/datum/language/gezena_kalixcian,
+		/datum/language/zohil_kalixcian,
+		/datum/language/league_kalixcian,
 		/datum/language/codespeak,
 		/datum/language/monkey,
 		/datum/language/aphasia,
@@ -161,7 +165,9 @@
 	taste_sensitivity = 101 // Not a tongue, they can't taste shit
 	var/static/list/languages_possible_ethereal = typecacheof(list(
 		/datum/language/galactic_common,
-		/datum/language/kalixcian_common,
+		/datum/language/gezena_kalixcian,
+		/datum/language/zohil_kalixcian,
+		/datum/language/league_kalixcian,
 		/datum/language/teceti_unified,
 		/datum/language/solarian_international,
 		/datum/language/moffic,
@@ -183,8 +189,10 @@
 	say_mod = "flutters"
 	var/static/list/languages_possible_moth = typecacheof(list(
 		/datum/language/galactic_common,
-		/datum/language/kalixcian_common,
+		/datum/language/gezena_kalixcian,
+		/datum/language/zohil_kalixcian,
 		/datum/language/teceti_unified,
+		/datum/language/league_kalixcian,
 		/datum/language/solarian_international,
 		/datum/language/moffic,
 		/datum/language/monkey,
@@ -202,7 +210,9 @@
 	say_mod = "chirps"
 	var/static/list/languages_possible_kepi = typecacheof(list(
 		/datum/language/galactic_common,
-		/datum/language/kalixcian_common,
+		/datum/language/gezena_kalixcian,
+		/datum/language/zohil_kalixcian,
+		/datum/language/league_kalixcian,
 		/datum/language/teceti_unified,
 		/datum/language/solarian_international,
 		/datum/language/moffic,
@@ -223,7 +233,9 @@
 	say_mod = "shrieks"
 	var/static/list/languages_possible_vox = typecacheof(list(
 		/datum/language/galactic_common,
-		/datum/language/kalixcian_common,
+		/datum/language/gezena_kalixcian,
+		/datum/language/zohil_kalixcian,
+		/datum/language/league_kalixcian,
 		/datum/language/teceti_unified,
 		/datum/language/solarian_international,
 		/datum/language/moffic,
@@ -245,13 +257,14 @@
 	say_mod = "chitters"
 	var/static/list/languages_possible_arachnid = typecacheof(list(
 		/datum/language/galactic_common,
-		/datum/language/kalixcian_common,
+		/datum/language/gezena_kalixcian,
+		/datum/language/zohil_kalixcian,
+		/datum/language/league_kalixcian,
 		/datum/language/codespeak,
 		/datum/language/monkey,
 		/datum/language/aphasia,
 		/datum/language/moffic,
-		/datum/language/rachnidian,
-		/datum/language/buzzwords
+		/datum/language/rachnidian
 	))
 
 /obj/item/organ/tongue/spider/Initialize(mapload)
@@ -286,7 +299,9 @@
 	say_mod = "blorbles"
 	var/static/list/languages_possible_slime = typecacheof(list(
 		/datum/language/galactic_common,
-		/datum/language/kalixcian_common,
+		/datum/language/gezena_kalixcian,
+		/datum/language/zohil_kalixcian,
+		/datum/language/league_kalixcian,
 		/datum/language/teceti_unified,
 		/datum/language/solarian_international,
 		/datum/language/moffic,
@@ -420,7 +435,9 @@
 	modifies_speech = TRUE
 	var/static/list/languages_possible_fly = typecacheof(list(
 		/datum/language/galactic_common,
-		/datum/language/kalixcian_common,
+		/datum/language/gezena_kalixcian,
+		/datum/language/zohil_kalixcian,
+		/datum/language/league_kalixcian,
 		/datum/language/teceti_unified,
 		/datum/language/solarian_international,
 		/datum/language/moffic,
