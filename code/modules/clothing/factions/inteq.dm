@@ -61,7 +61,7 @@
 	desc = "A tactical sneaksuit developed for usage in the IRMG's covert elements. Maximizes stealth by minimizing friction."
 	icon_state = "inteq_sneak"
 	item_state = "inteq_sneak"
-	roll_sleeves = FALSE
+	roll_sleeves = TRUE
 	roll_down = TRUE
 
 // Oversuits // can someone like. change the vanguard and maa armors to be subtypes of armor/inteq. please
@@ -261,6 +261,97 @@
 	full_retraction = TRUE
 	supports_variations = VOX_VARIATION | KEPORI_VARIATION
 
+/obj/item/clothing/head/helmet/space/hardsuit/syndi/elite/inteq
+	name = "elite rampart hardsuit helmet"
+	desc = "A unique edition of the infamous Gorlex elite hardsuit, customized from seized ICW-era caches. It is in EVA mode. Property of the IRMG."
+	alt_desc = "A unique edition of the infamous Gorlex elite hardsuit, customized from seized ICW-era caches. It is in combat mode. Property of the IRMG."
+	icon_state = "hardsuit0-rampart"
+	hardsuit_type = "rampart"
+	icon = 'icons/obj/clothing/faction/inteq/hats.dmi'
+	mob_overlay_icon = 'icons/mob/clothing/faction/inteq/hats.dmi'
+
+/obj/item/clothing/suit/space/hardsuit/syndi/elite/inteq
+	name = "elite rampart hardsuit"
+	desc = "A unique edition of the infamous Gorlex elite hardsuit, customized from seized ICW-era caches. It is in travel mode."
+	alt_desc = "A unique edition of the infamous Gorlex elite hardsuit, customized from seized ICW-era caches. It is in combat mode."
+	icon_state = "hardsuit0-rampart"
+	item_state = "hardsuit0-rampart"
+	hardsuit_type = "rampart"
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/elite/inteq
+	icon = 'icons/obj/clothing/faction/inteq/suits.dmi'
+	mob_overlay_icon = 'icons/mob/clothing/faction/inteq/suits.dmi'
+	jetpack = null
+	supports_variations = DIGITIGRADE_VARIATION
+
+
+// pilot softsuit
+/obj/item/clothing/suit/space/inteq/pilot
+	name = "inteq pilot space suit"
+	icon = 'icons/obj/clothing/faction/inteq/suits.dmi'
+	mob_overlay_icon = 'icons/mob/clothing/faction/inteq/suits.dmi'
+	item_state = "space-inteq-pilot"
+	icon_state = "space-inteq-pilot"
+	desc = "A rich brown, lightweight spacesuit made of a fire retardant material. While uncumbersome, it has poor protection against extreme temperatures of either end. Utilized by exosuit and shuttle pilots of the IRMG."
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 100, "rad" = 60, "fire" = 80, "acid" = 75, "wound" = 5)
+	clothing_flags = STOPSPRESSUREDAMAGE | THICKMATERIAL | FAST_EMBARK
+	min_cold_protection_temperature = FIRE_SUIT_MIN_TEMP_PROTECT
+	resistance_flags = FIRE_PROOF
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/exo/large
+	slowdown = 0.2
+
+/obj/item/clothing/head/helmet/space/inteq/pilot
+	name = "inteq pilot helmet"
+	icon = 'icons/obj/clothing/faction/inteq/hats.dmi'
+	mob_overlay_icon = 'icons/mob/clothing/faction/inteq/hats.dmi'
+	lefthand_file = 'icons/mob/inhands/faction/inteq/inteq_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/faction/inteq/inteq_righthand.dmi'
+	item_state = "space-inteq-pilot"
+	icon_state = "space-inteq-pilot0"
+	desc = "A specialized space helmet with a large gold visor, designed to provide maximum visibility while protecting from glare. While protective against low pressure environments, it does little against extreme temperatures of either end. Utilized by exosuit and shuttle pilots of the IRMG."
+	armor = list("melee" = 20, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 100, "rad" = 60, "fire" = 80, "acid" = 75, "wound" = 5)
+	visor_flags_inv = HIDEHAIR|HIDEEARS|HIDEFACE|HIDEFACIALHAIR|HIDEMASK
+	visor_flags = STOPSPRESSUREDAMAGE | ALLOWINTERNALS | FLASH_PROTECTION_WELDER
+	min_cold_protection_temperature = FIRE_HELM_MIN_TEMP_PROTECT
+	resistance_flags = FIRE_PROOF
+
+	up = FALSE
+	actions_types = list(/datum/action/item_action/toggle_helmet)
+
+/obj/item/clothing/head/helmet/space/inteq/pilot/update_icon_state()
+	icon_state = "space-inteq-pilot[up]"
+	return ..()
+
+/obj/item/clothing/head/helmet/space/inteq/pilot/attack_self(mob/user) //toggle copied from indie pilot helm
+	if(!isturf(user.loc))
+		to_chat(user, span_warning("You cannot toggle your helmet while in this [user.loc]!") )
+		return
+	up = !up
+	if(!up || force)
+		to_chat(user, span_notice("You close your helmet's visor and breathing mask."))
+		gas_transfer_coefficient = initial(gas_transfer_coefficient)
+		permeability_coefficient = initial(permeability_coefficient)
+		clothing_flags |= visor_flags
+		flags_cover |= HEADCOVERSEYES | HEADCOVERSMOUTH
+		flags_inv |= visor_flags_inv
+		cold_protection |= HEAD
+	else
+		to_chat(user, span_notice("You open your helmet's visor and breathing mask."))
+		gas_transfer_coefficient = null
+		permeability_coefficient = null
+		clothing_flags &= ~visor_flags
+		flags_cover &= ~(HEADCOVERSEYES | HEADCOVERSMOUTH)
+		flags_inv &= ~visor_flags_inv
+		cold_protection &= ~HEAD
+	update_appearance()
+	playsound(src.loc, 'sound/mecha/mechmove03.ogg', 50, TRUE)
+	user.update_inv_head()
+	if(iscarbon(user))
+		var/mob/living/carbon/C = user
+		C.head_update(src, forced = 1)
+	for(var/X in actions)
+		var/datum/action/A = X
+		A.UpdateButtonIcon()
+
 // Headgear
 
 /obj/item/clothing/head/warden/inteq
@@ -325,30 +416,30 @@
 	icon_state = "inteq_honorable_beret"
 	supports_variations = VOX_VARIATION
 
-/obj/item/clothing/head/helmet/swat/inteq
-	name = "inteq SWAT helmet"
-	desc = "A robust and spaceworthy helmet with an opaque gold visor. There is an insignia on the earpad with the letters 'IRMG' on it."
+/obj/item/clothing/head/helmet/bulletproof/x11/inteq
+	name = "inteq X-11 helmet"
+	desc = "A robust bulletproof helmet utilizing the Bezuts-made X-11 format. There is an insignia on the earpad with the letters 'IRMG' on it."
 	icon = 'icons/obj/clothing/faction/inteq/hats.dmi'
 	mob_overlay_icon = 'icons/mob/clothing/faction/inteq/hats.dmi'
-	icon_state = "inteq_swat"
+	icon_state = "inteq_x11helm"
 	item_state = "inteq_swat"
 	can_flashlight = TRUE
-	flags_inv = HIDEHAIR
 	supports_variations = KEPORI_VARIATION | VOX_VARIATION
 	content_overlays = TRUE
+	unique_reskin = null
 
-/obj/item/clothing/head/helmet/inteq
-	name = "inteq helmet"
-	desc = "A standard issue helmet in the colors of the IRMG. It doesn't feel special in any way."
+/obj/item/clothing/head/helmet/m10/inteq
+	name = "inteq M-10 helmet"
+	desc = "A standard issue M-10 helmet in the colors of the IRMG. It doesn't feel special in any way."
 	icon = 'icons/obj/clothing/faction/inteq/hats.dmi'
 	mob_overlay_icon = 'icons/mob/clothing/faction/inteq/hats.dmi'
-	icon_state = "inteq_helmet"
-	icon_state = "inteq_helmet"
+	icon_state = "inteq_m10helm"
 	can_flashlight = TRUE
 	supports_variations = KEPORI_VARIATION | VOX_VARIATION
 	vox_override_icon = 'icons/mob/clothing/faction/inteq/vox.dmi'
 	kepori_override_icon = 'icons/mob/clothing/faction/inteq/kepori.dmi'
 	content_overlays = TRUE
+	unique_reskin = null
 
 // Gloves
 
