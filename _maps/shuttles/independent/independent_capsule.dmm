@@ -145,11 +145,6 @@
 /obj/effect/spawner/random/trash/graffiti,
 /turf/open/floor/concrete/reinforced,
 /area/ship/external)
-"cj" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/storage/backpack/duffelbag/med/surgery,
-/turf/open/floor/mineral/titanium/blue,
-/area/ship/medical)
 "cl" = (
 /obj/effect/turf_decal/industrial/stand_clear/white{
 	dir = 4
@@ -663,6 +658,10 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/storage/case/surgery{
+	pixel_x = -6;
+	pixel_y = 7
+	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/medical)
 "jn" = (
@@ -2607,10 +2606,8 @@
 /turf/open/floor/concrete/reinforced,
 /area/ship/external)
 "Rg" = (
-/obj/structure/salvageable/computer{
-	dir = 1
-	},
 /obj/machinery/light/directional/south,
+/obj/structure/salvageable/safe_server,
 /turf/open/floor/plasteel/telecomms_floor,
 /area/ship/engineering/communications)
 "Ri" = (
@@ -3511,7 +3508,7 @@ SN
 Qq
 EV
 qx
-cj
+ov
 Lp
 ie
 hK

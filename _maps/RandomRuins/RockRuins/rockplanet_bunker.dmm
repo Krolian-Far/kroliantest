@@ -1,0 +1,5638 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ab" = (
+/obj/structure/platform/military{
+	dir = 4
+	},
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 1
+	},
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plasteel/tech,
+/area/ruin/rockplanet/mining_base/engineering)
+"ae" = (
+/obj/structure/chair/plastic{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/techfloor,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/canteen)
+"ah" = (
+/obj/effect/turf_decal/industrial/warning/dust{
+	dir = 8
+	},
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet)
+"an" = (
+/turf/open/floor/concrete/slab_2,
+/area/ruin/rockplanet/mining_base/refinery)
+"ap" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/oil/streak{
+	icon_state = "streak3"
+	},
+/turf/open/floor/concrete/slab_3,
+/area/ruin/rockplanet/mining_base/refinery)
+"ax" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/salvageable/circuit_imprinter,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"aI" = (
+/obj/structure/window/plasma{
+	dir = 1
+	},
+/obj/machinery/telecomms/receiver,
+/turf/open/floor/circuit,
+/area/ship/engineering/communications)
+"aY" = (
+/obj/effect/turf_decal/siding,
+/obj/effect/spawner/random/vending/cola,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"be" = (
+/obj/structure/closet/wall/directional/north,
+/obj/structure/table_frame,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/plasteel/mono/dark,
+/area/ship/crew/cryo)
+"bn" = (
+/obj/machinery/atmospherics/components/unary/passive_vent/layer2{
+	dir = 8
+	},
+/obj/machinery/light/small/directional/south,
+/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/rifle/internals,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"bv" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/oil{
+	pixel_y = 11;
+	pixel_x = 17
+	},
+/obj/effect/decal/cleanable/oil{
+	pixel_y = 15;
+	pixel_x = -7
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"bx" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 4;
+	icon_state = "blood2"
+	},
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"bB" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on/layer4{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/glass/plasma,
+/turf/open/floor/engine,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"bI" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"bM" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/extinguisher_cabinet/directional/west,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"bN" = (
+/obj/structure/platform/military{
+	dir = 4
+	},
+/obj/structure/closet/crate/engineering{
+	name = "fuel crate"
+	},
+/obj/item/stack/sheet/mineral/uranium/ten,
+/turf/open/floor/mineral/titanium/tiled,
+/area/ruin/rockplanet/mining_base/engineering)
+"bP" = (
+/obj/machinery/door/airlock/security{
+	dir = 4;
+	name = "Security Office"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/mining_base/armory)
+"bU" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"cb" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"cc" = (
+/obj/structure/table/reinforced,
+/obj/item/melee/knife{
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/obj/item/cutting_board,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/rockplanet/mining_base/canteen)
+"cd" = (
+/obj/effect/turf_decal/atmos/air,
+/obj/effect/turf_decal/steeldecal/steel_decals2,
+/obj/machinery/light_switch{
+	pixel_x = 4;
+	pixel_y = 24
+	},
+/obj/machinery/atmospherics/components/binary/pump/layer4{
+	dir = 4;
+	name = "Air to Distro"
+	},
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"cg" = (
+/obj/machinery/light_switch{
+	dir = 8;
+	pixel_x = 22
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"ch" = (
+/obj/structure/cable{
+	icon_state = "0-10"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel,
+/area/ruin/rockplanet/mining_base/engineering)
+"cj" = (
+/obj/machinery/atmospherics/pipe/simple/dark/visible{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"cl" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/airalarm/directional/south,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/slab_2,
+/area/ruin/rockplanet/mining_base/refinery)
+"cu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/trash/can/food{
+	pixel_x = 7;
+	pixel_y = -5
+	},
+/obj/structure/fluff/broken_flooring{
+	icon_state = "plating";
+	dir = 8
+	},
+/obj/effect/decal/cleanable/garbage{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/obj/structure/chair/handrail,
+/obj/machinery/button/door{
+	id = "brawler_port";
+	pixel_y = 25;
+	pixel_x = -6;
+	name = "port shutters"
+	},
+/obj/machinery/button/shieldwallgen{
+	pixel_y = 23;
+	pixel_x = 3;
+	id = "brawler_port_holo"
+	},
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"cw" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/visible/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/power/apc/auto_name/directional/north{
+	start_charge = 10
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/turf/burnt,
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"cK" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"cM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -22
+	},
+/obj/machinery/button/door{
+	dir = 4;
+	name = "airlock lockdown override";
+	id = lockdown;
+	pixel_x = -23;
+	pixel_y = 7
+	},
+/turf/open/floor/plasteel/patterned/grid,
+/area/ship/engineering/communications)
+"da" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/spawner/random/trash/graffiti,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"dh" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"dl" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"du" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/tiles,
+/area/ruin/rockplanet/mining_base/refinery)
+"dz" = (
+/obj/structure/window/plasma,
+/obj/machinery/telecomms/broadcaster,
+/turf/open/floor/circuit,
+/area/ship/engineering/communications)
+"dA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/supplypod_rubble,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"dB" = (
+/obj/machinery/door/window/northleft,
+/obj/structure/window/plasma{
+	dir = 4
+	},
+/turf/open/floor/circuit/red,
+/area/ship/engineering/communications)
+"dI" = (
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/structure/table,
+/obj/item/radio/intercom/wideband/table{
+	dir = 4;
+	pixel_x = 6
+	},
+/obj/machinery/button/door{
+	id = "brawler_aft";
+	pixel_x = -7;
+	dir = 8;
+	name = "aft shutters"
+	},
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel/mono,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"dL" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet{
+	icon_state = "med_secure";
+	name = "doctor's locker"
+	},
+/obj/item/storage/backpack/satchel/med,
+/obj/item/clothing/under/rank/medical/doctor/skirt,
+/obj/item/clothing/under/rank/medical/doctor/blue,
+/obj/item/clothing/under/rank/medical/doctor/green,
+/obj/item/clothing/head/beret/med,
+/obj/item/clothing/mask/surgical,
+/obj/item/clothing/suit/apron/surgical,
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/medbay)
+"dP" = (
+/obj/machinery/atmospherics/pipe/simple/dark/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance/external/glass{
+	name = "Secondary Airlock";
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters{
+	name = "Lockdown shutters";
+	id = lockdown;
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"dR" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/siding/red{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/rack,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"ea" = (
+/turf/closed/wall/concrete/reinforced,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"en" = (
+/obj/machinery/atmospherics/pipe/manifold/dark/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/light/small/directional/east,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"er" = (
+/obj/structure/table/reinforced,
+/obj/item/food/donut/jelly/apple{
+	pixel_x = -6;
+	pixel_y = 11
+	},
+/obj/item/food/donut/blumpkin{
+	pixel_x = 5;
+	pixel_y = 7
+	},
+/obj/effect/turf_decal/siding/red{
+	dir = 8
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/armory)
+"ex" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/crew)
+"ey" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/airalarm/directional/south,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/blood{
+	icon_state = "floor3"
+	},
+/obj/effect/mob_spawn/human/corpse/indie/engineer{
+	mob_species = /datum/species/moth
+	},
+/turf/open/floor/plasteel,
+/area/ruin/rockplanet/mining_base/engineering)
+"eH" = (
+/obj/machinery/suit_storage_unit/inherit/industrial,
+/obj/item/clothing/mask/breath,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"eJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/garbage{
+	pixel_x = -6;
+	pixel_y = -7
+	},
+/turf/open/floor/concrete/slab_2,
+/area/ruin/rockplanet/mining_base/refinery)
+"eN" = (
+/obj/machinery/power/shieldwallgen/atmos{
+	id = "bunkerruindoorholo";
+	dir = 8
+	},
+/obj/machinery/door/poddoor{
+	id = "bunkerruindoor"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"fb" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock{
+	dir = 4;
+	name = "Dormitory"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ship/crew/cryo)
+"fg" = (
+/obj/effect/turf_decal/siding{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"fk" = (
+/obj/effect/decal/cleanable/food/tomato_smudge,
+/obj/effect/turf_decal/siding{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"fn" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/visible/layer1{
+	dir = 5
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/structure/sign/warning/gasmask{
+	pixel_x = -32
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/turf/burnt,
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"fo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/isf_big/eight,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"fp" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/east{
+	start_charge = 0
+	},
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/grid,
+/area/ship/engineering/communications)
+"fq" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/concrete/slab_2,
+/area/ruin/rockplanet/mining_base/refinery)
+"fs" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/components/binary/dp_vent_pump/layer4{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"fB" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/pen/fourcolor,
+/obj/effect/turf_decal/siding/red/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/armory)
+"fF" = (
+/obj/structure/platform/military{
+	dir = 6
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood/drip{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/rockplanet/mining_base/engineering)
+"fL" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"fS" = (
+/turf/closed/wall/concrete/reinforced,
+/area/ruin/rockplanet/shippingdockcustoms)
+"fY" = (
+/obj/structure/extinguisher_cabinet/directional/west,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/grid,
+/area/ship/engineering/communications)
+"fZ" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ship/engineering/communications)
+"ga" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/mapping_helpers/airlock/welded,
+/obj/machinery/door/airlock/atmos{
+	name = "Atmospherics"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"gc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/firstaid{
+	pixel_x = -8;
+	pixel_y = 10
+	},
+/obj/effect/decal/cleanable/blood/squirt{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/ruin/icemoon/tesla_lab/medbay)
+"gf" = (
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	dir = 4;
+	id = "brawler_port_holo"
+	},
+/obj/machinery/door/poddoor/shutters{
+	dir = 1;
+	id = "brawler_port"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/engine/hull/interior,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"gi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/glass,
+/obj/effect/turf_decal/box/red/corners{
+	dir = 1
+	},
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"gq" = (
+/obj/machinery/atmospherics/pipe/simple/dark/visible,
+/obj/structure/sign/warning/vacuum/external{
+	pixel_x = -32
+	},
+/obj/machinery/atmospherics/components/binary/dp_vent_pump/layer4{
+	dir = 1
+	},
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"gs" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/industrial/stand_clear/red{
+	dir = 1
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"gy" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/engine/hull/reinforced,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"gD" = (
+/obj/effect/decal/cleanable/oil/streak{
+	pixel_x = -1;
+	pixel_y = 19;
+	icon_state = "streak2"
+	},
+/obj/effect/decal/cleanable/oil/streak{
+	pixel_x = 5;
+	pixel_y = -2;
+	icon_state = "streak3"
+	},
+/obj/machinery/button/shieldwallgen{
+	pixel_y = 9;
+	pixel_x = 23;
+	id = "brawler_aft_holo";
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"gI" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet/mining_base/refinery)
+"gS" = (
+/turf/open/floor/concrete/tiles,
+/area/ruin/rockplanet/mining_base/refinery)
+"hd" = (
+/obj/machinery/door/window/northright,
+/obj/structure/window/plasma{
+	dir = 8
+	},
+/turf/open/floor/circuit,
+/area/ship/engineering/communications)
+"hf" = (
+/obj/effect/turf_decal/industrial/warning/dust{
+	dir = 10
+	},
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet)
+"hi" = (
+/obj/effect/turf_decal/siding/red{
+	dir = 4
+	},
+/obj/machinery/recharger{
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stock_parts/cell/gun/mini{
+	pixel_x = 9;
+	pixel_y = 5
+	},
+/obj/item/stock_parts/cell/gun/mini{
+	pixel_x = 4
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/armory)
+"hk" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc/auto_name/directional/north{
+	start_charge = 10
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light_switch{
+	pixel_x = -11;
+	pixel_y = 23
+	},
+/turf/open/floor/concrete/tiles,
+/area/ruin/rockplanet/mining_base/refinery)
+"hp" = (
+/turf/closed/wall/concrete/reinforced,
+/area/ruin/rockplanet/mining_base/armory)
+"hq" = (
+/obj/effect/turf_decal/industrial/warning/dust,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet)
+"hs" = (
+/obj/machinery/atmospherics/components/trinary/filter/atmos/n2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"hw" = (
+/obj/machinery/autolathe/hacked,
+/turf/open/floor/plasteel/tech,
+/area/ruin/rockplanet/mining_base/engineering)
+"hC" = (
+/obj/structure/grille,
+/obj/structure/window/plasma/reinforced/fulltile,
+/obj/effect/decal/cleanable/blood/splatter/over_window,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/rockplanet/mining_base/canteen)
+"hF" = (
+/obj/structure/crate_shelf,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/refinery)
+"hH" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"hK" = (
+/obj/structure/salvageable/computer,
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ship/engineering/communications)
+"hQ" = (
+/obj/structure/table/reinforced,
+/obj/item/paper{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/button/door{
+	dir = 1;
+	pixel_x = -7;
+	pixel_y = -2;
+	name = "blast door control";
+	id = "bunkerruindoor"
+	},
+/obj/machinery/button/shieldwallgen{
+	pixel_x = 1;
+	pixel_y = 0;
+	dir = 1;
+	name = "door shield switch";
+	id = "bunkerruindoorholo"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"hW" = (
+/obj/effect/turf_decal/siding/red,
+/obj/structure/closet/secure_closet{
+	icon_state = "sec";
+	name = "contraband locker"
+	},
+/obj/item/gun/ballistic/automatic/pistol/challenger/no_mag,
+/obj/item/ammo_box/magazine/co9mm,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"hX" = (
+/obj/machinery/door/airlock/security{
+	name = "Checkpoint";
+	id = "checkpointAB"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"ie" = (
+/turf/closed/wall/concrete/reinforced,
+/area/ship/engineering/communications)
+"ik" = (
+/obj/structure/table/reinforced,
+/obj/machinery/microwave{
+	pixel_y = 7
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/rockplanet/mining_base/canteen)
+"im" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "5-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
+/turf/open/floor/plasteel/mono/white,
+/area/ship/crew/cryo)
+"iu" = (
+/obj/machinery/power/shieldwallgen/atmos{
+	id = "bunkerruindoorholo";
+	dir = 4
+	},
+/obj/machinery/door/poddoor{
+	id = "bunkerruindoor"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"iv" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood/drip{
+	pixel_x = 0;
+	pixel_y = 11
+	},
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"iw" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
+/turf/open/floor/plasteel/mono/white,
+/area/ship/crew/cryo)
+"iy" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/oil/slippery{
+	icon_state = "floor4"
+	},
+/turf/open/floor/concrete/slab_3,
+/area/ruin/rockplanet/mining_base/refinery)
+"iJ" = (
+/obj/structure/rack,
+/obj/item/storage/box/handcuffs{
+	pixel_x = 6;
+	pixel_y = 0
+	},
+/obj/item/storage/box/flashbangs{
+	pixel_x = -6;
+	pixel_y = 0
+	},
+/obj/effect/turf_decal/siding/red{
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/armory)
+"iZ" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/concrete/tiles,
+/area/ruin/rockplanet/mining_base/refinery)
+"jk" = (
+/obj/structure/railing/thin{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "5-9"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/stairs{
+	dir = 8
+	},
+/area/ruin/rockplanet/mining_base/engineering)
+"jm" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "brawler_starboard"
+	},
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/engine/hull/interior,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"jn" = (
+/obj/effect/turf_decal/siding/red{
+	dir = 10
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/armory)
+"jo" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"jp" = (
+/obj/machinery/door/poddoor/shutters{
+	dir = 1;
+	id = "brawler_port"
+	},
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	dir = 8;
+	id = "brawler_port_holo"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/engine/hull/interior,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"jq" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/canteen)
+"ju" = (
+/obj/effect/decal/cleanable/glass,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"jy" = (
+/obj/machinery/atmospherics/pipe/manifold/dark/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"jD" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"jI" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"jW" = (
+/obj/structure/table/reinforced,
+/obj/structure/cabinet/fireaxe{
+	pixel_y = 21
+	},
+/obj/machinery/cell_charger{
+	pixel_y = 5;
+	pixel_x = 3
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"km" = (
+/obj/machinery/atmospherics/pipe/simple/dark/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/advanced_airlock_controller/directional/south,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"kq" = (
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/techfloor,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/patterned/grid/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"kI" = (
+/obj/structure/extinguisher_cabinet/directional/east,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/titanium/blue,
+/area/ruin/icemoon/tesla_lab/medbay)
+"kW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"la" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/pen/red{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"lc" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/stairs/left{
+	dir = 1
+	},
+/area/ruin/rockplanet/mining_base/engineering)
+"lh" = (
+/obj/effect/turf_decal/industrial/warning/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet)
+"lm" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"lq" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"lw" = (
+/obj/machinery/door/window/southleft,
+/obj/structure/window/plasma{
+	dir = 4
+	},
+/turf/open/floor/circuit/red,
+/area/ship/engineering/communications)
+"lI" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet/mining_base/refinery)
+"lJ" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/simple_animal/hostile/human/frontier/civilian,
+/turf/open/floor/concrete/slab_3,
+/area/ruin/rockplanet/mining_base/refinery)
+"lS" = (
+/obj/structure/window/plasma,
+/obj/structure/sign/warning/hottemp{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/industrial/fire,
+/obj/effect/decal/cleanable/plasma,
+/obj/effect/turf_decal/steeldecal/steel_decals_central2,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"lX" = (
+/obj/effect/turf_decal/siding{
+	dir = 8
+	},
+/mob/living/simple_animal/hostile/human/frontier/ranged/mosin/internals,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"mb" = (
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-5"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/oil/streak,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/patterned/grid/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"me" = (
+/obj/effect/turf_decal/siding{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"mm" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/crew)
+"mo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning/dust{
+	dir = 5
+	},
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet)
+"mu" = (
+/obj/machinery/suit_storage_unit/inherit/industrial,
+/obj/structure/sign/warning/vacuum/external{
+	pixel_x = -32
+	},
+/obj/item/clothing/head/helmet/space/nasavoid/old{
+	desc = "An old dark red space suit helmet. While old and dusty, it still gets the job done."
+	},
+/obj/item/clothing/suit/space/nasavoid/old{
+	desc = "An extremely old dark red space suit. Age has degraded the suit, making it difficult to move around in."
+	},
+/obj/item/tank/internals/oxygen,
+/obj/item/clothing/mask/breath,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"mC" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"mW" = (
+/obj/structure/window/plasma/reinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"nh" = (
+/obj/effect/decal/cleanable/glass/plasma,
+/turf/open/floor/engine/airless{
+	name = "plasma floor"
+	},
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"ni" = (
+/obj/structure/salvageable/server,
+/turf/open/floor/plasteel/tech,
+/area/ruin/rockplanet/mining_base/engineering)
+"nm" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/guncase/pistol/inherit{
+	pixel_x = -2;
+	pixel_y = 7
+	},
+/obj/item/gun/ballistic/automatic/pistol/champion/no_mag,
+/obj/item/ammo_box/magazine/co9mm/ap,
+/obj/item/ammo_box/magazine/co9mm/ap,
+/obj/effect/turf_decal/siding/red,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/armory)
+"np" = (
+/obj/structure/window/plasma{
+	dir = 4
+	},
+/obj/effect/turf_decal/industrial/fire{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/plasma,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"nq" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_2,
+/area/ruin/rockplanet/mining_base/refinery)
+"nA" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/industrial/fire{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/glass/plasma,
+/obj/effect/mapping_helpers/turf/burnt,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"nI" = (
+/turf/open/floor/plating/asteroid/rockplanet/lit,
+/area/ruin/rockplanet)
+"nM" = (
+/mob/living/simple_animal/hostile/human/frontier/ranged/pounder/space,
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"nZ" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"ob" = (
+/obj/structure/window/plasma,
+/obj/machinery/telecomms/bus,
+/turf/open/floor/circuit/red,
+/area/ship/engineering/communications)
+"oi" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/slab_2,
+/area/ruin/rockplanet/mining_base/refinery)
+"on" = (
+/obj/machinery/door/poddoor{
+	id = "bunkerruindoor"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"or" = (
+/obj/structure/platform/military{
+	dir = 4
+	},
+/obj/structure/closet/secure_closet{
+	icon_state = "eng_secure";
+	req_access_txt = "10";
+	name = "engineer's locker"
+	},
+/obj/item/clothing/under/rank/engineering/engineer/hazard,
+/obj/item/storage/toolbox/electrical,
+/obj/item/clothing/suit/toggle/hazard,
+/obj/item/clothing/head/hardhat/dblue,
+/obj/item/clothing/shoes/workboots,
+/obj/item/storage/backpack/messenger/engi,
+/obj/item/storage/backpack/satchel/eng,
+/obj/item/storage/backpack/industrial,
+/obj/item/storage/backpack/duffelbag/engineering,
+/turf/open/floor/mineral/titanium/tiled,
+/area/ruin/rockplanet/mining_base/engineering)
+"ov" = (
+/obj/machinery/power/apc/auto_name/directional/west{
+	start_charge = 10
+	},
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"oA" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"oD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/isf_big/seven,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"oE" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet/mining_base/refinery)
+"oG" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"oP" = (
+/turf/closed/wall/concrete/reinforced,
+/area/ship/crew/cryo)
+"oZ" = (
+/obj/machinery/light/directional/south,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet/mining_base/refinery)
+"pa" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/patterned/grid,
+/area/ship/engineering/communications)
+"pc" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
+/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4,
+/obj/machinery/atmospherics/components/binary/valve/on{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/steeldecal/steel_decals10,
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"pk" = (
+/obj/effect/turf_decal/siding{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"pl" = (
+/obj/structure/window/plasma/reinforced{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/outlet_injector{
+	dir = 8
+	},
+/turf/open/floor/engine/plasma,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"pp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/slab_3,
+/area/ruin/rockplanet/mining_base/refinery)
+"pA" = (
+/obj/structure/crate_shelf,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/refinery)
+"pK" = (
+/obj/structure/crate_shelf,
+/obj/effect/turf_decal/box/corners{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/refinery)
+"pP" = (
+/obj/effect/turf_decal/siding{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/vending/snack,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"qa" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/tiles,
+/area/ruin/rockplanet/mining_base/refinery)
+"qk" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"qo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/skm/space,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/mining_base/armory)
+"qx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/techfloor{
+	dir = 10
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/canteen)
+"qV" = (
+/obj/machinery/door/airlock/security{
+	name = "Checkpoint"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/rockplanet/shippingdockcustoms)
+"ra" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/crew)
+"rs" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 9
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/blood/splatter{
+	icon_state = "gibbl2"
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/medbay)
+"rw" = (
+/obj/effect/decal/cleanable/plastic,
+/obj/effect/turf_decal/siding/thinplating,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/chair/plastic,
+/obj/item/chair/plastic{
+	pixel_y = 4;
+	pixel_x = -2
+	},
+/obj/item/chair/plastic{
+	pixel_y = 7
+	},
+/obj/item/chair/plastic{
+	pixel_y = 5;
+	pixel_x = -6
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"rF" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"rK" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc/auto_name/directional/east{
+	start_charge = 10
+	},
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"rM" = (
+/turf/closed/wall/concrete/reinforced,
+/area/ruin/rockplanet/mining_base/crew)
+"sf" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/crew)
+"sh" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/insectguts,
+/obj/effect/turf_decal/steeldecal/steel_decals7,
+/obj/machinery/light/directional/west,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"sq" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 2
+	},
+/obj/structure/cable,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"ss" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/salvageable/protolathe,
+/turf/open/floor/plasteel/tech,
+/area/ruin/rockplanet/mining_base/engineering)
+"st" = (
+/obj/machinery/airalarm/directional/south,
+/obj/effect/decal/cleanable/blood/squirt{
+	dir = 9
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/ruin/icemoon/tesla_lab/medbay)
+"sH" = (
+/turf/open/floor/plating/airless,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"sL" = (
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/telecomms/relay/preset/frontiersmen,
+/obj/machinery/light_switch{
+	pixel_y = -22;
+	dir = 1;
+	pixel_x = -9
+	},
+/obj/machinery/button/door{
+	dir = 1;
+	pixel_y = -23;
+	id = "brawler_shutter";
+	name = "window shutters"
+	},
+/turf/open/floor/plasteel/mono,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"sM" = (
+/obj/machinery/light/directional/north,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/secure_closet{
+	name = "mining equipment locker";
+	icon_state = "mining"
+	},
+/obj/item/storage/bag/ore,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/mining_scanner,
+/turf/open/floor/concrete/tiles,
+/area/ruin/rockplanet/mining_base/refinery)
+"ti" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"tp" = (
+/obj/machinery/power/apc/auto_name/directional/north{
+	start_charge = 10
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-10"
+	},
+/obj/structure/platform/military{
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"tA" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/glass/bowl,
+/obj/item/reagent_containers/glass/bowl{
+	pixel_y = 5
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/canteen)
+"tB" = (
+/obj/effect/decal/cleanable/blood/drip{
+	pixel_x = 10;
+	pixel_y = 14
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"tJ" = (
+/obj/structure/cable{
+	icon_state = "5-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"tO" = (
+/obj/structure/closet/firecloset/wall/directional/west,
+/obj/effect/turf_decal/siding{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"tX" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood{
+	icon_state = "floor2"
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"ul" = (
+/obj/structure/cable{
+	icon_state = "0-6"
+	},
+/obj/structure/cable{
+	icon_state = "6-8"
+	},
+/obj/machinery/power/smes,
+/obj/structure/sign/warning/enginesafety{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"us" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"uw" = (
+/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
+	dir = 9
+	},
+/obj/effect/turf_decal/atmos/nitrogen,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/effect/mapping_helpers/turf/burnt,
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"uK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning/dust{
+	dir = 6
+	},
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet)
+"uL" = (
+/obj/effect/turf_decal/siding/red{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"uN" = (
+/obj/structure/railing/thin/corner{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/machinery/light/directional/west,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/rockplanet/mining_base/engineering)
+"va" = (
+/obj/effect/turf_decal/siding/red{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"vi" = (
+/obj/structure/tank_dispenser/oxygen,
+/obj/item/light/bulb/broken,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"vk" = (
+/obj/machinery/door/airlock/freezer{
+	dir = 4;
+	name = "Bathroom"
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/rockplanet/mining_base/canteen)
+"vJ" = (
+/obj/structure/girder/displaced,
+/turf/open/floor/plating/airless,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"vN" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/vending/cigarette,
+/obj/effect/turf_decal/siding{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"vR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning/dust{
+	dir = 9
+	},
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet)
+"vT" = (
+/obj/structure/chair/office/dark,
+/obj/effect/turf_decal/siding/red{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood{
+	icon_state = "floor4"
+	},
+/obj/effect/mob_spawn/human/corpse{
+	outfit = /datum/outfit/job/independent/security;
+	mob_species = /datum/species/lizard
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"wc" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/robot_debris/gib,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 1;
+	icon_state = "blood2"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/rockplanet/mining_base/engineering)
+"wm" = (
+/obj/effect/turf_decal/industrial/fire/corner,
+/obj/effect/decal/cleanable/cobweb,
+/obj/effect/decal/cleanable/insectguts{
+	icon_state = "xfloor2"
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"wn" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/components/binary/pump/on/layer2{
+	dir = 1;
+	target_pressure = 4000;
+	name = "Waste to Outside"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"wp" = (
+/obj/structure/window/plasma/reinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/outlet_injector{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"wQ" = (
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"wR" = (
+/obj/machinery/atmospherics/components/unary/passive_vent{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"xa" = (
+/obj/effect/turf_decal/siding{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"xs" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding{
+	dir = 5
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"xy" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"xz" = (
+/obj/machinery/door/airlock/glass{
+	name = "Mess Hall";
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ruin/rockplanet/mining_base/canteen)
+"xH" = (
+/obj/machinery/power/shuttle/engine/electric,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/engine/hull/reinforced,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"xU" = (
+/turf/open/floor/plating/asteroid/rockplanet/cracked/lit,
+/area/ruin/rockplanet)
+"xV" = (
+/obj/structure/chair/office/dark,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"xW" = (
+/obj/structure/sign/warning/gasmask{
+	pixel_y = -32
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/engineering{
+	name = "concrete crate"
+	},
+/obj/item/reagent_containers/glass/concrete_bag,
+/obj/item/reagent_containers/glass/concrete_bag,
+/obj/item/reagent_containers/glass/concrete_bag,
+/obj/item/reagent_containers/glass/concrete_bag,
+/obj/item/reagent_containers/glass/concrete_bag,
+/turf/open/floor/concrete/slab_2,
+/area/ruin/rockplanet/mining_base/refinery)
+"yg" = (
+/obj/structure/platform/military/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/techfloor,
+/obj/structure/closet/crate/bin,
+/obj/effect/spawner/random/trash,
+/turf/open/floor/plasteel/patterned/grid/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"yn" = (
+/obj/machinery/computer/helm{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/vomit/old{
+	pixel_x = -10;
+	pixel_y = 3
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plasteel/mono,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"yu" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-10"
+	},
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"yF" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible,
+/obj/machinery/atmospherics/components/binary/valve/on{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"yH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"yT" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "brawler_starboard"
+	},
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	dir = 8;
+	id = "brawler_starboard_holo"
+	},
+/obj/structure/cable/yellow,
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/engine/hull/interior,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"zb" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet/mining_base/refinery)
+"zk" = (
+/obj/machinery/light_switch{
+	pixel_x = -11;
+	pixel_y = 23
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-10"
+	},
+/obj/structure/table_frame,
+/obj/machinery/power/apc/auto_name/directional/north{
+	start_charge = 10
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ship/crew/cryo)
+"zs" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning/dust{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet)
+"zJ" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-9"
+	},
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"zR" = (
+/turf/template_noop,
+/area/template_noop)
+"zV" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"zZ" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/chair/office/purple{
+	dir = 8
+	},
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/tech,
+/area/ruin/rockplanet/mining_base/engineering)
+"Aq" = (
+/obj/effect/turf_decal/siding/red{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"Av" = (
+/obj/structure/crate_shelf,
+/obj/effect/turf_decal/box/corners,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/hydroponics,
+/obj/item/circuitboard/machine/hydroponics,
+/obj/item/circuitboard/machine/hydroponics,
+/obj/item/clothing/under/rank/civilian/hydroponics,
+/obj/item/clothing/under/rank/civilian/hydroponics/skirt,
+/obj/item/seeds/cherry,
+/obj/item/cultivator,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/refinery)
+"Aw" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/visible/layer1{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/steeldecal/steel_decals1,
+/obj/machinery/atmospherics/components/trinary/filter/atmos/plasma{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/turf/burnt,
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"AA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood{
+	icon_state = "floor5"
+	},
+/obj/effect/mob_spawn/human/corpse/assistant{
+	mob_species = /datum/species/ipc
+	},
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"AM" = (
+/obj/effect/turf_decal/siding,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"AO" = (
+/obj/structure/crate_shelf,
+/obj/effect/turf_decal/box/corners,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/rations,
+/obj/effect/turf_decal/box/corners{
+	dir = 8
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/refinery)
+"Bb" = (
+/obj/effect/decal/cleanable/glass/plasma,
+/obj/machinery/atmospherics/components/unary/outlet_injector{
+	dir = 8
+	},
+/obj/structure/window/plasma/reinforced,
+/turf/open/floor/engine,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"Bv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"Bw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/cryopod/poor{
+	dir = 1
+	},
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ship/crew/cryo)
+"By" = (
+/obj/machinery/door/airlock/mining{
+	name = "Warehouse";
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet/shippingdockcustoms)
+"BN" = (
+/obj/machinery/atmospherics/components/unary/passive_vent/layer4{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/spawner/random/trash/graffiti,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"BW" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ship/crew/cryo)
+"Ca" = (
+/obj/effect/turf_decal/siding/red,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/suit_storage_unit/inherit,
+/obj/item/clothing/suit/space/hardsuit/security/independent,
+/obj/item/tank/internals/oxygen/red,
+/obj/item/clothing/mask/gas/sechailer,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"Ci" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -22
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"Cj" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-5"
+	},
+/obj/structure/cable{
+	icon_state = "4-9"
+	},
+/obj/item/paper/crumpled{
+	default_raw_text = "JEREMY YOU DUMBASS BITCH YOU WERE SUPPOSED TO MAKE SURE THE GLASS WAS OKAY <b>BEFORE</b> PUMPING MULTIPLE CANISTERS OF PLASMA INTO THE CHAMBER<br><br>I'M GONNA FUCKING KILL YOU DUDE";
+	pixel_x = 10;
+	pixel_y = -10
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/rockplanet/mining_base/engineering)
+"Co" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"Cq" = (
+/obj/effect/decal/cleanable/glass/plasma,
+/obj/machinery/atmospherics/components/unary/outlet_injector{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"Cv" = (
+/obj/machinery/modular_computer/console/preset/engineering{
+	dir = 4
+	},
+/obj/item/paper{
+	pixel_x = 1;
+	pixel_y = 4;
+	default_raw_text = "IF GENERATOR STOPS WORKING:<br><br>HIT WITH WRENCH<br>IF WRENCH DOESNT WORK, PRAY<br>IF PRAY DOESN'T WORK, GIVE UP AND TURN ON PACMAN";
+	name = "GEOTHERMAL TAP INSTRUCTIONS"
+	},
+/obj/effect/turf_decal/techfloor/orange{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/rockplanet/mining_base/engineering)
+"Cx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/mining_base/armory)
+"Cy" = (
+/obj/effect/mapping_helpers/turf/burnt,
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"CE" = (
+/obj/effect/turf_decal/siding,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"CJ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"CU" = (
+/obj/structure/chair/plastic{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/canteen)
+"CW" = (
+/obj/structure/crate_shelf,
+/turf/open/floor/plasteel/tech,
+/area/ruin/rockplanet/mining_base/engineering)
+"Dh" = (
+/obj/machinery/suit_storage_unit/inherit/industrial,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/item/clothing/mask/breath,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"Di" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"Dk" = (
+/obj/machinery/door/airlock/command{
+	dir = 4;
+	name = "Telecommunications";
+	req_access = "19"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ship/engineering/communications)
+"Dl" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"Dn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/isf_big/two,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"Dv" = (
+/obj/structure/table/reinforced,
+/obj/structure/noticeboard{
+	pixel_y = 30
+	},
+/obj/machinery/computer/cryopod/directional/west,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/plasteel/mono/dark,
+/area/ship/crew/cryo)
+"Dy" = (
+/obj/item/clothing/head/cone{
+	pixel_y = 8;
+	pixel_x = -5
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"DE" = (
+/obj/effect/turf_decal/box/red/corners{
+	dir = 4
+	},
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"DO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/grid,
+/area/ship/engineering/communications)
+"Ec" = (
+/obj/machinery/light/directional/west,
+/obj/effect/turf_decal/siding{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"En" = (
+/obj/effect/supplypod_rubble,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"EJ" = (
+/obj/structure/platform/military{
+	dir = 4
+	},
+/obj/effect/turf_decal/industrial/fire/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"EL" = (
+/turf/closed/wall/r_wall,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"EM" = (
+/obj/structure/crate_shelf,
+/obj/effect/turf_decal/box/corners{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/internals,
+/obj/item/tank/internals/oxygen,
+/obj/item/clothing/mask/gas/frontiersmen,
+/obj/item/clothing/mask/gas/frontiersmen,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/refinery)
+"EO" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"EU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/chair/handrail,
+/obj/machinery/light/directional/north,
+/turf/open/floor/plasteel,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"EV" = (
+/obj/structure/railing/thin/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 9
+	},
+/obj/machinery/light/directional/south,
+/obj/effect/decal/cleanable/oil/slippery,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-9"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/rockplanet/mining_base/engineering)
+"Ff" = (
+/obj/effect/turf_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet)
+"Fj" = (
+/turf/closed/wall/concrete/reinforced,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"Fk" = (
+/obj/machinery/light/directional/south,
+/obj/machinery/telecomms/server,
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ship/engineering/communications)
+"Fs" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/visible,
+/obj/machinery/airalarm/directional/west,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/turf/burnt,
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"Ft" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable{
+	icon_state = "2-5"
+	},
+/obj/structure/cable{
+	icon_state = "2-9"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/rockplanet/mining_base/engineering)
+"Fw" = (
+/obj/effect/turf_decal/siding{
+	dir = 10
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"Fy" = (
+/obj/structure/platform/military{
+	dir = 4
+	},
+/obj/effect/turf_decal/industrial/fire/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/greenglow/filled,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"FE" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/simple_animal/hostile/human/frontier/internals,
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ship/engineering/communications)
+"FP" = (
+/obj/structure/closet/secure_closet{
+	icon_state = "sec";
+	name = "security detail's locker"
+	},
+/obj/item/clothing/under/rank/security/officer,
+/obj/item/clothing/under/rank/security/officer/skirt,
+/obj/item/holosign_creator/security,
+/obj/item/storage/backpack/security,
+/obj/item/storage/belt/security,
+/obj/item/storage/belt/security/webbing,
+/obj/item/clothing/head/nanotrasen/beret/security,
+/obj/item/clothing/glasses/sunglasses/ballistic,
+/obj/item/clothing/head/helmet/bulletproof/x11,
+/obj/item/clothing/suit/armor/vest/bulletproof,
+/obj/effect/turf_decal/siding/red,
+/obj/item/melee/baton,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/armory)
+"FT" = (
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/grid/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"FV" = (
+/obj/item/clothing/head/cone{
+	pixel_x = -9;
+	pixel_y = 2
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"FY" = (
+/obj/effect/turf_decal/siding/red{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/directional/south,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"Gf" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/pen/blue,
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -22
+	},
+/obj/structure/cable{
+	icon_state = "1-6"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/rockplanet/mining_base/engineering)
+"Gk" = (
+/obj/machinery/light/small/directional/east,
+/obj/effect/decal/cleanable/food/egg_smudge,
+/obj/structure/chair/plastic,
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/canteen)
+"Gm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/isf_big/three,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"GB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/oil/streak{
+	pixel_x = 5;
+	pixel_y = -2
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/chair/handrail{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/plasteel,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"GE" = (
+/obj/structure/chair/office/dark{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/mining_base/armory)
+"GK" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/canteen)
+"GM" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"GR" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 9
+	},
+/obj/effect/turf_decal/atmos/oxygen,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"GU" = (
+/obj/structure/closet/emcloset/wall/directional/west,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"GV" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/concrete/slab_2,
+/area/ruin/rockplanet/mining_base/refinery)
+"GW" = (
+/obj/effect/turf_decal/siding/thinplating,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/port_gen/pacman,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/item/stack/sheet/mineral/plasma/twenty{
+	pixel_y = 9;
+	pixel_x = -5
+	},
+/turf/open/floor/plasteel,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"Hc" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/platform/military{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/rockplanet/mining_base/engineering)
+"Hi" = (
+/obj/machinery/door/airlock/public/glass{
+	dir = 4;
+	name = "Cryogenics"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/airlock/abandoned,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ship/crew/cryo)
+"Hr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning/dust{
+	dir = 8
+	},
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet)
+"Hy" = (
+/obj/effect/turf_decal/siding/red{
+	dir = 10
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"HB" = (
+/obj/machinery/advanced_airlock_controller/directional/east,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"HJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/isf_big/six,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"HM" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/visible{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/steeldecal/steel_decals1,
+/obj/effect/mapping_helpers/turf/burnt,
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"HW" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/reinforced,
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"HZ" = (
+/obj/machinery/door/airlock/maintenance/external/glass{
+	name = "Secondary Airlock"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/poddoor/shutters{
+	name = "Lockdown shutters";
+	id = lockdown
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_target,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"Ie" = (
+/turf/closed/wall/concrete/reinforced,
+/area/ruin/rockplanet/mining_base/refinery)
+"Ig" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"Im" = (
+/obj/structure/sign/warning/fire{
+	pixel_y = -4;
+	pixel_x = -25
+	},
+/obj/structure/sign/warning/electricshock{
+	pixel_x = -25;
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/industrial/fire/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/steeldecal/steel_decals_central4,
+/obj/effect/mapping_helpers/turf/burnt,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"Ir" = (
+/obj/machinery/computer/security/retro{
+	id = "bunkerruinnet"
+	},
+/obj/effect/turf_decal/siding/red,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/armory)
+"Is" = (
+/obj/effect/turf_decal/siding{
+	dir = 6
+	},
+/obj/structure/closet/crate/bin,
+/obj/effect/spawner/random/trash,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"It" = (
+/obj/machinery/power/smes,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"IJ" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor/shutters{
+	dir = 8;
+	id = "brawler_shutter"
+	},
+/turf/open/floor/plating,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"IS" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"IX" = (
+/obj/effect/decal/cleanable/wrapping{
+	pixel_y = 25
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"IY" = (
+/obj/machinery/atmospherics/components/unary/passive_vent{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/spawner/random/trash/graffiti,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"IZ" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"Ji" = (
+/obj/effect/turf_decal/siding/red{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/human/frontier/internals,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"Jr" = (
+/turf/closed/wall/concrete/reinforced,
+/area/ruin/rockplanet/mining_base/canteen)
+"Jv" = (
+/obj/structure/cable/yellow{
+	icon_state = "5-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "5-9"
+	},
+/obj/structure/chair/handrail{
+	dir = 1
+	},
+/obj/machinery/button/door{
+	dir = 1;
+	pixel_x = -6;
+	pixel_y = -21;
+	id = "brawler_starboard";
+	name = "starboard shutters"
+	},
+/obj/machinery/button/shieldwallgen{
+	dir = 1;
+	pixel_y = -19;
+	pixel_x = 3;
+	id = "brawler_starboard_holo"
+	},
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"Jx" = (
+/obj/structure/cable{
+	icon_state = "4-10"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"Jz" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"JI" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"JJ" = (
+/obj/effect/turf_decal/siding/red{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"JO" = (
+/obj/machinery/door/window/southright,
+/obj/structure/window/plasma{
+	dir = 8
+	},
+/turf/open/floor/circuit,
+/area/ship/engineering/communications)
+"JQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/isf_big/one,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"JW" = (
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"Kk" = (
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	id = "brawler_aft_holo";
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 8;
+	id = "brawler_aft"
+	},
+/obj/machinery/door/firedoor/border_only/closed{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only/closed{
+	dir = 8
+	},
+/turf/open/floor/engine/hull/interior,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"Kr" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"KD" = (
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/grid/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"KG" = (
+/obj/structure/grille,
+/obj/structure/window/plasma/reinforced/fulltile,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/rockplanet/mining_base/canteen)
+"KI" = (
+/obj/machinery/airalarm/directional/east,
+/obj/effect/turf_decal/siding{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"KK" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/simple_animal/hostile/human/frontier/civilian,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet/mining_base/refinery)
+"KL" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"KQ" = (
+/obj/structure/salvageable/computer{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/rockplanet/mining_base/engineering)
+"KS" = (
+/obj/structure/platform/military/corner,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/rockplanet/mining_base/engineering)
+"KY" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/engine/hull/reinforced,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"Lb" = (
+/obj/effect/turf_decal/siding/blue/corner,
+/obj/structure/table_frame,
+/obj/effect/decal/cleanable/blood{
+	icon_state = "floor6"
+	},
+/obj/effect/mob_spawn/human/corpse{
+	outfit = /datum/outfit/job/independent/miner;
+	mob_species = /datum/species/kepori
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/medbay)
+"Lp" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"LO" = (
+/turf/open/floor/concrete/slab_3,
+/area/ruin/rockplanet/mining_base/refinery)
+"LP" = (
+/obj/structure/platform/military/corner,
+/obj/machinery/power/port_gen/pacman/super,
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel/patterned/grid/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"LU" = (
+/obj/structure/chair/plastic{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/techfloor,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/canteen)
+"LX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/box/red/corners{
+	dir = 8
+	},
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"LY" = (
+/obj/machinery/cryopod/poor{
+	dir = 1
+	},
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ship/crew/cryo)
+"Me" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/patterned/grid,
+/area/ship/engineering/communications)
+"Mk" = (
+/turf/closed/wall/concrete/reinforced,
+/area/ruin/rockplanet/mining_base/engineering)
+"Mm" = (
+/obj/machinery/atmospherics/pipe/simple/dark/visible{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/light/small/directional/west,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"Mr" = (
+/obj/structure/closet/secure_closet{
+	icon_state = "freezer";
+	name = "fridge";
+	desc = "It's seen better days."
+	},
+/obj/item/storage/ration/assorted_salted_offal,
+/obj/item/storage/ration/battered_fish_sticks,
+/obj/item/storage/ration/elbow_macaroni,
+/obj/item/storage/ration/miras,
+/obj/item/storage/cans/sixbeer,
+/obj/item/storage/cans/sixbeer,
+/obj/machinery/airalarm/directional/west,
+/obj/item/food/fishmeat,
+/obj/item/food/fishmeat,
+/obj/item/food/meat/slab,
+/obj/item/food/meat/slab,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/rockplanet/mining_base/canteen)
+"Mt" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/tiles,
+/area/ruin/rockplanet/mining_base/refinery)
+"MG" = (
+/obj/structure/chair/plastic{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/food/salt,
+/obj/effect/turf_decal/techfloor,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/canteen)
+"MK" = (
+/obj/structure/crate_shelf,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/refinery)
+"MM" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"Nb" = (
+/obj/structure/chair/plastic{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/canteen)
+"Ng" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 8
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"Nk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "5-8"
+	},
+/turf/open/floor/concrete/slab_2,
+/area/ruin/rockplanet/mining_base/refinery)
+"Nn" = (
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/layer_manifold,
+/turf/open/floor/plasteel/patterned/grid/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"No" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"Ns" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet/mining_base/refinery)
+"Nw" = (
+/obj/effect/turf_decal/siding{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"NA" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet/mining_base/refinery)
+"NF" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"NJ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 8
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"NL" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/isf_big/four,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"NO" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/blue{
+	dir = 10
+	},
+/obj/structure/frame/computer/retro{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 8
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/medbay)
+"NX" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/slab_2,
+/area/ruin/rockplanet/mining_base/refinery)
+"Ou" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/mining_base/armory)
+"OG" = (
+/obj/structure/frame/computer/retro,
+/obj/effect/turf_decal/siding/blue{
+	dir = 6
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/medbay)
+"OL" = (
+/obj/structure/closet/crate/bin,
+/obj/effect/spawner/random/trash,
+/turf/open/floor/plasteel/tech,
+/area/ruin/rockplanet/mining_base/crew)
+"OO" = (
+/obj/machinery/atmospherics/components/unary/passive_vent/layer4{
+	dir = 4
+	},
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"OR" = (
+/obj/effect/turf_decal/industrial/warning/dust/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/caution/red,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet)
+"OS" = (
+/obj/effect/turf_decal/industrial/warning/dust{
+	dir = 1
+	},
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet)
+"OT" = (
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	id = "brawler_aft_holo"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 8;
+	id = "brawler_aft"
+	},
+/obj/machinery/door/firedoor/border_only/closed{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only/closed{
+	dir = 8
+	},
+/turf/open/floor/engine/hull/interior,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"OZ" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"Pb" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/siding{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"Pt" = (
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/mining_base/armory)
+"Pv" = (
+/obj/machinery/light/directional/north,
+/obj/structure/closet/crate/bin,
+/obj/effect/spawner/random/trash/garbage,
+/obj/structure/cable{
+	icon_state = "4-10"
+	},
+/turf/open/floor/concrete/tiles,
+/area/ruin/rockplanet/mining_base/refinery)
+"PE" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding{
+	dir = 6
+	},
+/mob/living/simple_animal/hostile/human/frontier/ranged/internals,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"PH" = (
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Engineering";
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/abandoned,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"PN" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/crew)
+"PT" = (
+/obj/machinery/door/poddoor/shutters{
+	dir = 1;
+	id = "brawler_port"
+	},
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/engine/hull/interior,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"PW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning/dust/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/industrial/caution/red,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet)
+"Qh" = (
+/obj/machinery/atmospherics/pipe/simple/dark/visible,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/door/airlock/maintenance/external/glass{
+	name = "Secondary Airlock"
+	},
+/obj/machinery/door/poddoor/shutters{
+	name = "Lockdown shutters";
+	id = lockdown
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_target,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"Qq" = (
+/obj/machinery/door/airlock/medical/glass{
+	dir = 4;
+	name = "Medical"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/ruin/icemoon/tesla_lab/medbay)
+"Qw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning/dust,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet)
+"Qx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet/mining_base/refinery)
+"QC" = (
+/obj/effect/decal/cleanable/plasma{
+	pixel_x = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating/end{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-10"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-6"
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/filled/cola{
+	pixel_y = 16;
+	pixel_x = -3
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = -15;
+	pixel_x = -10
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-5"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-10"
+	},
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable/yellow{
+	icon_state = "2-10"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"QG" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/effect/turf_decal/steeldecal/steel_decals_central6,
+/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/internals,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"QV" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/slab_2,
+/area/ruin/rockplanet/mining_base/refinery)
+"QX" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/slab_3,
+/area/ruin/rockplanet/mining_base/refinery)
+"Rg" = (
+/obj/structure/sign/warning/gasmask{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/siding{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/vending/snack,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"Ri" = (
+/obj/structure/platform/military{
+	dir = 4
+	},
+/obj/structure/window/plasma{
+	dir = 8
+	},
+/obj/effect/turf_decal/industrial/fire{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/shutoff,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/engineering)
+"Rl" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/apc/auto_name/directional/north{
+	start_charge = 10
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/machinery/light_switch{
+	pixel_x = 10;
+	pixel_y = 23
+	},
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 9
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/ruin/icemoon/tesla_lab/medbay)
+"Rs" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/pod,
+/area/ruin/rockplanet/mining_base/canteen)
+"Ru" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/visible,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/sprayweb,
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"RE" = (
+/obj/effect/turf_decal/siding/red{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"RH" = (
+/obj/structure/window/plasma/reinforced/fulltile,
+/obj/structure/grille,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"RN" = (
+/obj/machinery/atmospherics/components/trinary/filter/atmos/o2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/effect/mapping_helpers/turf/burnt,
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"RR" = (
+/obj/machinery/atmospherics/components/trinary/mixer/airmix/flipped{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/turf/burnt,
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"RZ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 1;
+	icon_state = "blood2"
+	},
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 1
+	},
+/turf/open/floor/plasteel/stairs/right,
+/area/ruin/rockplanet/mining_base/engineering)
+"Sb" = (
+/obj/effect/turf_decal/siding/red{
+	dir = 4
+	},
+/obj/structure/rack,
+/obj/item/gun/energy/sharplite/x26,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/armory)
+"Sj" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/structure/extinguisher_cabinet/directional/south,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 4;
+	icon_state = "blood2"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/rockplanet/mining_base/engineering)
+"Ss" = (
+/obj/structure/crate_shelf,
+/obj/effect/turf_decal/box/corners{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/engineering{
+	name = "material crate"
+	},
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/mineral/plasma/twenty,
+/obj/item/stack/sheet/mineral/silver/five,
+/obj/item/stack/sheet/mineral/titanium/twenty,
+/obj/item/stack/sheet/plastic/twenty,
+/obj/item/stack/sheet/mineral/wood/twentyfive,
+/obj/effect/turf_decal/box/corners{
+	dir = 1
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/refinery)
+"Sy" = (
+/obj/structure/crate_shelf,
+/obj/effect/turf_decal/box/corners{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/mining_base/refinery)
+"SB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/holopad/emergency/command,
+/turf/open/floor/plasteel,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"SG" = (
+/obj/effect/supplypod_rubble,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"SN" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/turf_decal/techfloor,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"SZ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"Ta" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"Tk" = (
+/obj/machinery/shower{
+	pixel_y = 19
+	},
+/obj/structure/curtain,
+/obj/structure/lattice/catwalk,
+/obj/item/soap/nanotrasen,
+/obj/item/bikehorn/rubberducky/plasticducky{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/rockplanet/mining_base/canteen)
+"Tm" = (
+/obj/structure/platform/military{
+	dir = 4
+	},
+/obj/structure/closet/secure_closet{
+	icon_state = "eng_secure";
+	req_access_txt = "10";
+	name = "engineer's locker"
+	},
+/obj/item/holosign_creator/engineering,
+/obj/item/storage/toolbox/electrical,
+/obj/item/clothing/suit/toggle/hazard,
+/obj/item/clothing/head/hardhat/dblue,
+/obj/item/clothing/head/welding,
+/obj/item/clothing/shoes/workboots,
+/obj/item/storage/backpack/messenger/engi,
+/obj/item/storage/backpack/satchel/eng,
+/obj/item/storage/backpack/industrial,
+/obj/item/storage/backpack/duffelbag/engineering,
+/turf/open/floor/mineral/titanium/tiled,
+/area/ruin/rockplanet/mining_base/engineering)
+"TA" = (
+/obj/effect/turf_decal/siding/red,
+/obj/structure/closet/secure_closet{
+	icon_state = "sec";
+	name = "contraband locker"
+	},
+/obj/item/gun/ballistic/automatic/pistol/podium/no_mag,
+/obj/item/ammo_box/magazine/m46_30_podium,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"TB" = (
+/obj/structure/window/plasma{
+	dir = 1
+	},
+/obj/machinery/telecomms/processor,
+/turf/open/floor/circuit/red,
+/area/ship/engineering/communications)
+"TQ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/slab_2,
+/area/ruin/rockplanet/mining_base/refinery)
+"Uh" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/cryopod/poor{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ship/crew/cryo)
+"Un" = (
+/obj/structure/closet/crate/bin,
+/obj/effect/spawner/random/trash,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"Us" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/isf_big/five,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"UE" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/effect/mob_spawn/human/corpse{
+	outfit = /datum/outfit/job/independent/doctor
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"UH" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/patterned/grid,
+/area/ship/engineering/communications)
+"UR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/supplypod_rubble,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"US" = (
+/obj/effect/turf_decal/siding/blue/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/medbay)
+"Vm" = (
+/obj/structure/window/plasma/reinforced/fulltile,
+/obj/structure/grille,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/rockplanet/mining_base/canteen)
+"Vs" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"Vv" = (
+/obj/effect/turf_decal/box/red/corners,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/reinforced,
+/area/ruin/rockplanet)
+"Vx" = (
+/turf/closed/wall/concrete/reinforced,
+/area/ruin/icemoon/tesla_lab/medbay)
+"Vy" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/visible/layer1,
+/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/greenglow/filled,
+/obj/effect/turf_decal/atmos/plasma,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"VA" = (
+/obj/effect/turf_decal/siding{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"VM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/medical{
+	name = "first aid crate"
+	},
+/obj/item/storage/firstaid/brute,
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/o2,
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 6
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/ruin/icemoon/tesla_lab/medbay)
+"VO" = (
+/obj/effect/spawner/bunk_bed,
+/turf/open/floor/plasteel/tech,
+/area/ruin/rockplanet/mining_base/crew)
+"VY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/vending/cola,
+/obj/effect/turf_decal/siding{
+	dir = 6
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"Wg" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"Wl" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-6"
+	},
+/obj/docking_port/mobile{
+	dir = 4;
+	name = "brawler shuttle";
+	port_direction = 2;
+	preferred_direction = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 8;
+	id = "brawler_aft"
+	},
+/obj/machinery/door/firedoor/border_only/closed{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only/closed{
+	dir = 8
+	},
+/turf/open/floor/engine/hull/interior,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"WA" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "brawler_starboard"
+	},
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	dir = 4;
+	id = "brawler_starboard_holo"
+	},
+/obj/structure/cable/yellow,
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/turf/open/floor/engine/hull/interior,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"WD" = (
+/obj/structure/chair/plastic{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/techfloor,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/canteen)
+"WT" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/industrial/caution/red{
+	dir = 1
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"Xd" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"Xf" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/terminal,
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/icemoon/tesla_lab/haymaker)
+"Xg" = (
+/obj/effect/turf_decal/industrial/warning/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet)
+"Xn" = (
+/obj/effect/turf_decal/siding{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"Xq" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/turf/open/floor/concrete/slab_2,
+/area/ruin/rockplanet/mining_base/refinery)
+"Xs" = (
+/obj/structure/window/plasma/reinforced/fulltile,
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"XK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sink/kitchen{
+	dir = 1;
+	name = "sink"
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/rockplanet/mining_base/canteen)
+"XL" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 9
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/canteen)
+"XU" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet/mining_base/refinery)
+"Yk" = (
+/obj/structure/extinguisher_cabinet/directional/north,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/tiles,
+/area/ruin/rockplanet/mining_base/refinery)
+"Yl" = (
+/obj/structure/table/reinforced,
+/obj/structure/reagent_dispensers/servingdish,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/canteen)
+"Ym" = (
+/turf/open/lava,
+/area/ruin/rockplanet/mining_base/engineering)
+"YI" = (
+/turf/open/floor/plasteel/stairs/right{
+	dir = 1
+	},
+/area/ruin/rockplanet/mining_base/engineering)
+"YK" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/crate_shelf,
+/turf/open/floor/plasteel/tech,
+/area/ruin/rockplanet/mining_base/engineering)
+"YL" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"YM" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/concrete/slab_2,
+/area/ruin/rockplanet/mining_base/refinery)
+"YV" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/stairs/left,
+/area/ruin/rockplanet/mining_base/engineering)
+"YX" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding{
+	dir = 9
+	},
+/obj/machinery/light_switch{
+	dir = 8;
+	pixel_x = 22
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/icemoon/tesla_lab/central_hall)
+"Zb" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plasteel/white,
+/area/ruin/rockplanet/mining_base/canteen)
+"Zc" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/salvageable/destructive_analyzer,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"Zq" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"Zx" = (
+/obj/machinery/light/small/directional/west,
+/obj/effect/turf_decal/siding/blue{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table_frame,
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/icemoon/tesla_lab/medbay)
+"ZB" = (
+/obj/effect/turf_decal/industrial/warning/dust{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet)
+"ZD" = (
+/obj/effect/turf_decal/industrial/stand_clear/red,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/rockplanet)
+"ZF" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
+	dir = 8
+	},
+/obj/structure/window/plasma/reinforced{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/glass/plasma,
+/turf/open/floor/engine,
+/area/ruin/rockplanet/somme/engineeering{
+	name = "Bunker Atmospherics"
+	})
+"ZH" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/techfloor,
+/obj/effect/decal/cleanable/blood/footprints{
+	dir = 4;
+	icon_state = "blood2"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/rockplanet/mining_base/engineering)
+"ZN" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/concrete/slab_2,
+/area/ruin/rockplanet/mining_base/refinery)
+"ZR" = (
+/obj/machinery/power/apc/auto_name/directional/north{
+	start_charge = 10
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/red,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light_switch{
+	pixel_x = -11;
+	pixel_y = 23
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"ZT" = (
+/obj/machinery/computer/security/retro{
+	dir = 1;
+	id = "bunkerruinnet"
+	},
+/obj/effect/turf_decal/siding/red/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/shippingdockcustoms)
+"ZV" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/grid,
+/area/ship/engineering/communications)
+
+(1,1,1) = {"
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+wR
+IY
+wR
+wR
+Fj
+Fj
+Fj
+Fj
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(2,1,1) = {"
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+cj
+en
+jy
+jy
+Qh
+gq
+Mm
+Xs
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(3,1,1) = {"
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+BN
+Fj
+Fj
+Fj
+Fj
+Dh
+km
+Fj
+Fj
+Fj
+Fj
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(4,1,1) = {"
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+Fj
+bB
+wp
+Fj
+Fj
+dP
+Fj
+mW
+Cq
+Fj
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(5,1,1) = {"
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+Mk
+Mk
+Mk
+Mk
+Mk
+Mk
+Mk
+Fj
+cd
+RR
+Fs
+fn
+RN
+sh
+yF
+GR
+Fj
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(6,1,1) = {"
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+Mk
+wm
+np
+Im
+Cv
+Gf
+hw
+Fj
+cw
+pc
+hs
+Aw
+Vy
+Ru
+HM
+Cy
+Fj
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(7,1,1) = {"
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+Mk
+lS
+Ym
+nA
+zZ
+KS
+Cj
+ga
+uw
+ZF
+Bb
+pl
+nh
+Fj
+Fj
+Fj
+Fj
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(8,1,1) = {"
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+Mk
+Mk
+Mk
+EJ
+Ri
+Fy
+ab
+fF
+jk
+Mk
+Vx
+Vx
+Vx
+ie
+ie
+ie
+ie
+ie
+ie
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(9,1,1) = {"
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+Mk
+It
+uN
+mb
+FT
+KD
+Nn
+kq
+EV
+Mk
+Lb
+Zx
+US
+ie
+ob
+fY
+cM
+TB
+ie
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(10,1,1) = {"
+zR
+zR
+zR
+zR
+zR
+hp
+hp
+hp
+hp
+Mk
+ul
+ch
+LP
+Tm
+or
+bN
+yg
+ey
+Mk
+OG
+gc
+dL
+ie
+lw
+DO
+pa
+dB
+ie
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(11,1,1) = {"
+zR
+zR
+zR
+nI
+hp
+hp
+hi
+Sb
+iJ
+Mk
+jW
+Ft
+lc
+jo
+ti
+SN
+YV
+Sj
+Mk
+Rl
+VM
+st
+ie
+hK
+fZ
+FE
+Fk
+ie
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(12,1,1) = {"
+zR
+zR
+zR
+nI
+hp
+FP
+Pt
+Ou
+Ou
+Mk
+tp
+Hc
+YI
+dl
+QG
+ZH
+RZ
+wc
+Mk
+NO
+kI
+rs
+ie
+JO
+UH
+ZV
+hd
+ie
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(13,1,1) = {"
+zR
+zR
+nI
+nI
+hp
+nm
+Ou
+qo
+Ou
+Mk
+YK
+Ig
+Ig
+Zq
+Zc
+bx
+ss
+Mk
+Mk
+Qq
+Vx
+Vx
+ie
+dz
+Me
+fp
+aI
+ie
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(14,1,1) = {"
+zR
+zR
+nI
+nI
+hp
+Ir
+GE
+Ou
+Pt
+Mk
+CW
+IZ
+IZ
+YL
+ax
+xV
+ni
+Mk
+aY
+Ng
+fg
+fS
+ie
+ie
+Dk
+ie
+ie
+ie
+fS
+zR
+vR
+ah
+ah
+Hr
+ah
+hf
+"}
+(15,1,1) = {"
+zR
+nI
+nI
+nI
+hp
+fB
+er
+jn
+Cx
+Mk
+CW
+IZ
+Un
+cg
+Xd
+tB
+KQ
+Mk
+CE
+Ng
+VA
+fS
+Ca
+cK
+tJ
+uL
+fS
+rF
+fS
+fS
+OS
+gi
+SG
+MM
+LX
+hq
+"}
+(16,1,1) = {"
+zR
+nI
+nI
+ea
+hp
+hp
+hp
+hp
+bP
+Mk
+Mk
+Mk
+Mk
+Mk
+PH
+Mk
+Mk
+Mk
+AM
+NJ
+VA
+fS
+ZR
+Jx
+uL
+ZT
+fS
+Aq
+Aq
+fS
+Ff
+MM
+JQ
+Us
+dA
+lh
+"}
+(17,1,1) = {"
+nI
+nI
+OO
+vJ
+mu
+eH
+ea
+VY
+oA
+xs
+Nw
+Ec
+GU
+Is
+Vs
+pk
+tO
+Ec
+PE
+UE
+me
+fS
+dR
+Lp
+vT
+hQ
+RH
+oG
+WT
+iu
+OR
+MM
+Dn
+HJ
+wQ
+lh
+"}
+(18,1,1) = {"
+nI
+nI
+da
+Di
+wn
+fs
+HZ
+Kr
+SZ
+jI
+jD
+hH
+bU
+jD
+Ta
+Wg
+Jz
+mC
+xy
+cb
+Kr
+qV
+OZ
+lq
+Ji
+la
+RH
+oG
+gs
+on
+ZD
+SG
+Gm
+oD
+ju
+Xg
+"}
+(19,1,1) = {"
+xU
+xU
+bn
+sH
+vi
+HB
+ea
+Rg
+xa
+lX
+Fw
+tX
+YX
+KI
+rK
+vN
+Pb
+fk
+GM
+Xn
+pP
+fS
+Hy
+Co
+FY
+fS
+fS
+oG
+WT
+eN
+PW
+MM
+NL
+fo
+MM
+hq
+"}
+(20,1,1) = {"
+nI
+xU
+nI
+sH
+vJ
+ea
+ea
+ea
+ea
+ea
+Jr
+xz
+Jr
+Jr
+Vm
+Jr
+Jr
+hC
+KG
+Jr
+Jr
+fS
+TA
+Co
+RE
+fS
+va
+oG
+JJ
+fS
+OS
+wQ
+MM
+Bv
+En
+hq
+"}
+(21,1,1) = {"
+nI
+nI
+nI
+nI
+nI
+nI
+nI
+nI
+nI
+Jr
+Mr
+iv
+NF
+bM
+qk
+ov
+Ci
+us
+JW
+JI
+Jr
+fS
+hW
+fL
+CJ
+hX
+CJ
+lm
+fS
+fS
+OS
+DE
+MM
+UR
+Vv
+Qw
+"}
+(22,1,1) = {"
+nI
+EL
+OT
+Wl
+Kk
+EL
+xU
+xU
+nI
+Jr
+cc
+AA
+XL
+Nb
+qx
+bI
+No
+Rs
+yH
+kW
+Jr
+fS
+fS
+By
+fS
+fS
+fS
+fS
+fS
+zR
+mo
+zs
+ZB
+zs
+ZB
+uK
+"}
+(23,1,1) = {"
+nI
+EL
+cu
+Dy
+Jv
+EL
+xU
+xU
+nI
+Jr
+ik
+IS
+Gk
+jq
+CU
+bI
+bI
+nZ
+KL
+HW
+Ie
+pp
+Xq
+XU
+LO
+lI
+eJ
+Ie
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(24,1,1) = {"
+nI
+gf
+FV
+QC
+IX
+WA
+xU
+xU
+nI
+Jr
+Jr
+vk
+Jr
+tA
+LU
+nM
+oP
+oP
+Hi
+oP
+Ie
+QX
+Nk
+pK
+hF
+EM
+nq
+Ie
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(25,1,1) = {"
+nI
+PT
+yu
+rw
+zJ
+jm
+nI
+nI
+nI
+Jr
+Tk
+XK
+Jr
+Yl
+MG
+JW
+oP
+Dv
+iw
+Uh
+Ie
+Pv
+QV
+Sy
+pA
+Av
+ZN
+Ie
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(26,1,1) = {"
+nI
+jp
+zV
+GW
+dh
+yT
+nI
+nI
+nI
+Jr
+Jr
+Zb
+Jr
+GK
+WD
+Dl
+oP
+be
+im
+Bw
+Ie
+hk
+oi
+KK
+lJ
+gI
+cl
+Ie
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(27,1,1) = {"
+xH
+EL
+EU
+SB
+GB
+EL
+xH
+nI
+nI
+zR
+Jr
+Jr
+Jr
+GK
+ae
+bI
+oP
+zk
+BW
+LY
+Ie
+Yk
+NX
+Ss
+MK
+AO
+GV
+Ie
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(28,1,1) = {"
+gy
+sq
+gD
+EO
+Xf
+bv
+KY
+nI
+nI
+zR
+zR
+zR
+zR
+rM
+rM
+rM
+oP
+oP
+fb
+oP
+Ie
+qa
+fq
+zb
+iy
+NA
+YM
+Ie
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(29,1,1) = {"
+nI
+EL
+dI
+yn
+sL
+EL
+nI
+xU
+nI
+zR
+zR
+zR
+zR
+rM
+VO
+ex
+sf
+PN
+ra
+mm
+Ie
+Mt
+gS
+oE
+QX
+an
+Ie
+Ie
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(30,1,1) = {"
+xU
+EL
+IJ
+IJ
+IJ
+EL
+nI
+xU
+nI
+zR
+zR
+zR
+zR
+rM
+rM
+VO
+VO
+VO
+VO
+OL
+Ie
+sM
+gS
+Qx
+ap
+oZ
+Ie
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(31,1,1) = {"
+nI
+nI
+nI
+nI
+nI
+nI
+nI
+xU
+zR
+zR
+zR
+zR
+zR
+zR
+rM
+rM
+rM
+rM
+rM
+rM
+Ie
+iZ
+du
+TQ
+Ns
+xW
+Ie
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
+(32,1,1) = {"
+zR
+nI
+nI
+xU
+nI
+nI
+nI
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+Ie
+Ie
+Ie
+Ie
+Ie
+Ie
+Ie
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+"}
