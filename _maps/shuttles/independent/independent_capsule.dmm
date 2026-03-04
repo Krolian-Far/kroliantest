@@ -610,13 +610,6 @@
 /obj/effect/decal/cleanable/greenglow/filled,
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
-"iI" = (
-/obj/machinery/door/airlock/external{
-	name = "oxygen"
-	},
-/obj/effect/mapping_helpers/airlock/locked,
-/turf/open/floor/engine,
-/area/ship/external/dark)
 "iZ" = (
 /obj/structure/table/reinforced,
 /obj/machinery/power/apc/auto_name/directional/south,
@@ -793,7 +786,7 @@
 	name = "sink"
 	},
 /turf/open/floor/plasteel/white,
-/area/ship/crew)
+/area/ship/crew/canteen)
 "nh" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1019,13 +1012,6 @@
 /obj/effect/decal/cleanable/food/salt,
 /turf/open/floor/pod,
 /area/ship/crew/canteen)
-"qs" = (
-/obj/item/paper/crumpled/muddy{
-	default_raw_text = "PHORIDS LIVE IN HERE"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/concrete/slab_3,
-/area/ship/external)
 "qx" = (
 /obj/structure/frame/computer/retro,
 /obj/effect/turf_decal/siding/blue{
@@ -1135,9 +1121,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/engineering)
-"sE" = (
-/turf/closed/wall/concrete/reinforced,
-/area/ship/external/dark)
 "sH" = (
 /obj/structure/window/plasma/reinforced/fulltile,
 /obj/structure/grille,
@@ -1376,11 +1359,6 @@
 /obj/effect/spawner/random/trash/graffiti,
 /turf/open/floor/concrete/slab_1,
 /area/ship/external)
-"xO" = (
-/turf/open/floor/engine/plasma{
-	initial_gas_mix = "plasma=700;TEMP=293.15"
-	},
-/area/ship/external/dark)
 "xU" = (
 /obj/machinery/airalarm/directional/east,
 /obj/effect/turf_decal/siding{
@@ -1767,12 +1745,6 @@
 "EV" = (
 /turf/closed/wall/concrete/reinforced,
 /area/ship/engineering)
-"Fb" = (
-/obj/effect/decal/remains/human,
-/turf/open/floor/engine/plasma{
-	initial_gas_mix = "plasma=700;TEMP=293.15"
-	},
-/area/ship/external/dark)
 "Ff" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1950,12 +1922,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/concrete/slab_1,
 /area/ship/cargo)
-"HK" = (
-/obj/structure/sign/warning/nosmoking/burnt{
-	pixel_y = 32
-	},
-/turf/open/floor/concrete/slab_2,
-/area/ship/external)
 "HM" = (
 /obj/machinery/autolathe,
 /turf/open/floor/plasteel/tech,
@@ -1985,7 +1951,7 @@
 /obj/effect/decal/cleanable/vomit,
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plasteel/white,
-/area/ship/crew)
+/area/ship/crew/canteen)
 "Ig" = (
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -2501,12 +2467,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plating,
-/area/ship/crew)
-"PA" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/turf_decal/steeldecal/steel_decals_central1,
-/turf/open/floor/plating/airless,
-/area/ship/external)
+/area/ship/crew/canteen)
 "PE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/garbage{
@@ -3789,7 +3750,7 @@ tX
 sf
 By
 Xf
-yH
+hQ
 Pv
 mW
 gs
@@ -3815,8 +3776,8 @@ Xq
 Xq
 Xq
 LO
-yH
-yH
+hQ
+hQ
 Ie
 gs
 gs
@@ -3842,8 +3803,8 @@ yH
 yH
 yH
 yH
-yH
-yH
+hQ
+hQ
 gs
 xa
 ZN
@@ -3915,11 +3876,11 @@ zR
 zR
 zR
 zR
-sE
-sE
-sE
-sE
-HK
+zR
+zR
+zR
+zR
+zR
 GV
 Jz
 xH
@@ -3941,12 +3902,12 @@ zR
 zR
 zR
 zR
-sE
-xO
-Fb
-iI
-qs
-Jz
+zR
+zR
+zR
+zR
+zR
+zR
 Dh
 Yk
 ra
@@ -3967,12 +3928,12 @@ zR
 zR
 zR
 zR
-sE
-sE
-sE
-sE
-Jz
-PA
+zR
+zR
+zR
+zR
+zR
+zR
 GV
 hi
 KK
