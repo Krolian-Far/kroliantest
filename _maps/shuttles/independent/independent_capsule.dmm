@@ -2118,25 +2118,17 @@
 "JQ" = (
 /obj/structure/crate_shelf,
 /obj/structure/closet/crate/secure/gear,
-/obj/item/clothing/suit/armor/vest/marine,
-/obj/item/clothing/suit/armor/vest/marine,
-/obj/item/clothing/suit/armor/vest/marine,
 /obj/item/storage/belt/military/assault,
 /obj/item/clothing/gloves/combat,
-/obj/item/clothing/gloves/combat,
-/obj/item/clothing/gloves/combat,
 /obj/item/clothing/shoes/combat,
-/obj/item/clothing/shoes/combat,
-/obj/item/clothing/shoes/combat,
-/obj/item/melee/knife/combat,
 /obj/item/melee/knife/combat,
 /obj/item/melee/knife/combat,
 /obj/item/flashlight/seclite,
 /obj/item/flashlight/seclite,
-/obj/item/flashlight/seclite,
 /obj/item/clothing/head/helmet/m10,
-/obj/item/clothing/head/helmet/m10,
-/obj/item/clothing/head/helmet/m10,
+/obj/item/clothing/suit/armor/vest/bulletproof,
+/obj/item/clothing/suit/armor/vest/alt,
+/obj/item/clothing/head/beret/sec,
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/cargo)
 "Kk" = (
@@ -2802,7 +2794,8 @@
 	dheight = 32;
 	height = 32;
 	dwidth = 16;
-	width = 32
+	width = 32;
+	dir = 8
 	},
 /turf/template_noop,
 /area/template_noop)
@@ -3389,7 +3382,7 @@ Cy
 "}
 (6,1,1) = {"
 zR
-zR
+Un
 zR
 zR
 zR
@@ -3622,7 +3615,7 @@ PE
 gs
 "}
 (15,1,1) = {"
-Un
+zR
 cg
 Xd
 tB

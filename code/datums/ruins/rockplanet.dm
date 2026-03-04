@@ -42,3 +42,9 @@
 	description = "Frontiersmen have dug in like ticks to the planet's surface."
 	id = "rockplanet_somme"
 	suffix = "rockplanet_somme.dmm"
+
+/datum/map_template/ruin/rockplanet/bunker
+	name = "Overrun Re-Colonization Bunker"
+	description = "Once meant to hold the last bastion of this planet's populace, now taken over by feral frontiersmen."
+	id = "rockplanet_bunker"
+	suffix = "rockplanet_bunker.dmm"
