@@ -11,6 +11,9 @@
 	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "ah" = (
@@ -319,7 +322,9 @@
 /area/ship/cargo)
 "fp" = (
 /obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/east,
+/obj/machinery/power/apc/auto_name/directional/east{
+	start_charge = 10
+	},
 /obj/machinery/power/terminal{
 	dir = 4
 	},
@@ -400,6 +405,9 @@
 	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
 "gc" = (
@@ -575,7 +583,9 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/machinery/power/apc/auto_name/directional/north,
+/obj/machinery/power/apc/auto_name/directional/north{
+	start_charge = 10
+	},
 /obj/machinery/power/terminal{
 	dir = 1
 	},
@@ -612,7 +622,9 @@
 /area/ship/engineering)
 "iZ" = (
 /obj/structure/table/reinforced,
-/obj/machinery/power/apc/auto_name/directional/south,
+/obj/machinery/power/apc/auto_name/directional/south{
+	start_charge = 60
+	},
 /obj/machinery/power/terminal,
 /obj/structure/cable{
 	icon_state = "0-9"
@@ -689,7 +701,9 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/machinery/power/apc/auto_name/directional/east,
+/obj/machinery/power/apc/auto_name/directional/east{
+	start_charge = 10
+	},
 /obj/machinery/power/terminal{
 	dir = 4
 	},
@@ -915,7 +929,9 @@
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/cargo)
 "oG" = (
-/obj/machinery/power/apc/auto_name/directional/west,
+/obj/machinery/power/apc/auto_name/directional/west{
+	start_charge = 10
+	},
 /obj/machinery/power/terminal{
 	dir = 8
 	},
@@ -1773,6 +1789,15 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/power/apc/auto_name/directional/north{
+	start_charge = 10
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "Fs" = (
@@ -1941,6 +1966,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering/atmospherics)
 "Ie" = (
@@ -1956,7 +1984,9 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/obj/machinery/power/apc/auto_name/directional/north,
+/obj/machinery/power/apc/auto_name/directional/north{
+	start_charge = 10
+	},
 /obj/machinery/power/terminal{
 	dir = 1
 	},
@@ -2296,7 +2326,9 @@
 /turf/open/floor/concrete/slab_3,
 /area/ship/cargo)
 "NO" = (
-/obj/machinery/power/apc/auto_name/directional/east,
+/obj/machinery/power/apc/auto_name/directional/east{
+	start_charge = 40
+	},
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
@@ -3165,7 +3197,9 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/machinery/power/apc/auto_name/directional/east,
+/obj/machinery/power/apc/auto_name/directional/east{
+	start_charge = 10
+	},
 /obj/machinery/power/terminal{
 	dir = 4
 	},
