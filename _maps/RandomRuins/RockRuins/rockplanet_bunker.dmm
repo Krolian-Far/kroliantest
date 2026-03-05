@@ -152,6 +152,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/mono/white,
 /area/ruin/icemoon/tesla_lab/central_hall)
 "cb" = (
@@ -170,9 +173,6 @@
 /turf/open/floor/plasteel/mono/white,
 /area/ruin/icemoon/tesla_lab/central_hall)
 "cd" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/effect/turf_decal/industrial/fire{
 	dir = 1
 	},
@@ -180,6 +180,14 @@
 /obj/effect/mapping_helpers/turf/burnt,
 /obj/effect/decal/cleanable/blood/tracks{
 	color = "#616161"
+	},
+/obj/effect/decal/cleanable/ash{
+	pixel_x = 12;
+	pixel_y = 15
+	},
+/obj/effect/decal/cleanable/ash/large{
+	pixel_x = -10;
+	pixel_y = 10
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/rockplanet/mining_base/engineering)
@@ -299,6 +307,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/rockplanet/mining_base/armory)
@@ -1432,6 +1443,11 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 5
 	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/machinery/power/terminal,
 /turf/open/floor/plasteel/dark,
 /area/ruin/rockplanet/mining_base/armory)
 "rs" = (
@@ -2571,6 +2587,7 @@
 /obj/item/ammo_box/magazine/co9mm/ap,
 /obj/effect/turf_decal/siding/red,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/rockplanet/mining_base/armory)
 "Ie" = (
@@ -2751,6 +2768,12 @@
 	icon_state = "skull";
 	pixel_x = 8;
 	pixel_y = 7;
+	color = "#FF0000"
+	},
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "arrow";
+	pixel_x = -8;
+	pixel_y = 11;
 	color = "#FF0000"
 	},
 /turf/open/floor/plasteel/tech,
@@ -3130,6 +3153,11 @@
 "OT" = (
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/rockplanet/mining_base/engineering)
+"OX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/extinguisher_cabinet/directional/south,
+/turf/open/floor/plasteel/dark,
+/area/ruin/rockplanet/mining_base/armory)
 "OZ" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -3714,6 +3742,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 5
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/rockplanet/mining_base/armory)
 "Wl" = (
@@ -3861,12 +3892,13 @@
 	},
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/stock_parts/cell/gun/mini{
-	pixel_x = 9;
-	pixel_y = 5
+/obj/item/stock_parts/cell/gun/sharplite/mini/empty{
+	pixel_x = 10;
+	pixel_y = 7
 	},
-/obj/item/stock_parts/cell/gun/mini{
-	pixel_x = 4
+/obj/item/stock_parts/cell/gun/sharplite/mini/empty{
+	pixel_x = 5;
+	pixel_y = 2
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/rockplanet/mining_base/armory)
@@ -3937,6 +3969,9 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
 	},
 /turf/open/floor/plasteel/mono/white,
 /area/ruin/icemoon/tesla_lab/central_hall)
@@ -4500,7 +4535,7 @@ tp
 HZ
 ap
 Si
-ap
+OX
 GK
 us
 fF

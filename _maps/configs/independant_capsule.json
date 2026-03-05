@@ -3,13 +3,13 @@
 	"map_name": "Addendum-class Re-Colonization Bunker",
 	"map_short_name": "Addendum-class",
 	"faction": "/datum/faction/independent",
-	"prefix": null,
+	"prefix": "ICB",
 	"manufacturer": "ISF",
 	"namelists": ["GENERAL", "SPACE"],
 	"map_path": "_maps/shuttles/independent/independent_capsule.dmm",
 	"limit": 1,
-	"spawn_time_coeff": 1.5,
-	"officer_time_coeff": 0.5,
+	"spawn_time_coeff": 0,
+	"officer_time_coeff": 0,
 	"job_slots": {
 		"Recolonization Chief": {
 			"outfit": "/datum/outfit/job/independent/captain",
