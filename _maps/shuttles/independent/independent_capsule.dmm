@@ -2562,6 +2562,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/slab_1,
 /area/ship/external)
+"QD" = (
+/obj/docking_port/stationary{
+	dheight = 3;
+	height = 32;
+	dwidth = 6;
+	width = 32;
+	dir = 4;
+	name = "bunker pad dock"
+	},
+/turf/template_noop,
+/area/template_noop)
 "QG" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2791,11 +2802,12 @@
 /area/ship/engineering)
 "Un" = (
 /obj/docking_port/stationary{
-	dheight = 32;
+	dheight = 3;
 	height = 32;
-	dwidth = 16;
+	dwidth = 6;
 	width = 32;
-	dir = 8
+	dir = 8;
+	name = "nearby bunker dock"
 	},
 /turf/template_noop,
 /area/template_noop)
@@ -4080,5 +4092,31 @@ Nw
 GW
 GW
 Fw
+zR
+"}
+(33,1,1) = {"
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+zR
+QD
+zR
+zR
+zR
 zR
 "}

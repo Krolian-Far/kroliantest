@@ -1211,9 +1211,9 @@
 /area/ruin/rockplanet/shippingdockcustoms)
 "or" = (
 /obj/docking_port/stationary{
-	dheight = 32;
+	dheight = 3;
 	height = 32;
-	dwidth = 16;
+	dwidth = 6;
 	width = 32;
 	name = "bunker secondary dock"
 	},
@@ -1534,9 +1534,9 @@
 /area/ruin/rockplanet/mining_base/canteen)
 "sL" = (
 /obj/docking_port/stationary{
-	dheight = 32;
+	dheight = 3;
 	height = 32;
-	dwidth = 16;
+	dwidth = 6;
 	width = 32;
 	name = "bunker primary dock";
 	dir = 4

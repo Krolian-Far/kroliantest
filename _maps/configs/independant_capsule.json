@@ -3,7 +3,7 @@
 	"map_name": "Addendum-class Re-Colonization Bunker",
 	"map_short_name": "Addendum-class",
 	"faction": "/datum/faction/independent",
-	"prefix": "ICB",
+	"prefix": null,
 	"manufacturer": "ISF",
 	"namelists": ["GENERAL", "SPACE"],
 	"map_path": "_maps/shuttles/independent/independent_capsule.dmm",
